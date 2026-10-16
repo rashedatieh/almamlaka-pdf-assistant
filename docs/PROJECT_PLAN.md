@@ -132,7 +132,7 @@ C1 and C2 are confirmed real conflicts, so **no synthetic conflict fixture is ne
 | Runtime | **Python 3.12**, `uv` | Best PDF tooling; one language end to end |
 | Ingestion (build time) | **pdfplumber** (text, words with bounding boxes, font sizes, tables, page images via pypdfium2) + **pypdf** (`/PageLabels`); poppler `pdftotext` only as a test oracle | MIT/BSD/Apache licences (no PyMuPDF, which is AGPL); proven on these files |
 | Chunking | **One chunk per numbered section**, page-bounded; tables serialized as pipe rows with headers; deterministic IDs `{DOC}-p{page}-s{section}`; **character-level bounding boxes stored per chunk** (for evidence spotlight) | Natural citation units; gold tests written now |
-| Normalisation | `arabic_normalize.py` (vendored): `index` profile for BM25 on docs and queries; `embed` profile for embedding inputs; originals for display and LLM context | GET house standard |
+| Normalisation | `arabic_normalize.py` (vendored): `index` profile for BM25 on docs and queries; `embed` profile for embedding inputs; originals for display and LLM context | house standard |
 | Retrieval | **Hybrid:** in-process BM25 (own ~60 lines) **plus dense vectors from Vertex AI embeddings** (corpus vectors precomputed at build; one query embedding per search at runtime); planner produces bilingual queries; **RRF fusion (k=50)**, top-8 plus per-document diversity | Best cross-language robustness at about $0 cost (§3.4). The dense leg stays only if the M2 A/B on gold-v1 shows it helps or ties (house rule: measure before adopting an embedder). On a Vertex timeout of 1.5 s, the search falls back to BM25-only and logs it. |
 | Vector database | **LanceDB, embedded** (in-process; Apache-2.0; data stored as local files under `data/index/lancedb/`, built at `make embed` and baked into the image) [Verified 2026-10-15, lancedb.com: "Runs in-process", "Apache 2.0 license", local path storage]. Exact (brute-force) vector search: at 16 rows no approximate index is needed, so none is built. The keyword leg stays our own Arabic-aware BM25 (LanceDB's full-text tokenizer is not verified for Arabic), and both legs are fused with RRF in our code. | Gives reviewers a real, named vector database with zero servers, zero cost and no ops. It scales to thousands of chunks unchanged. Wrapped behind a small `VectorStore` interface. |
 | Embedding model | `gemini-embedding-001` (task types `RETRIEVAL_DOCUMENT`/`RETRIEVAL_QUERY`) vs `gemini-embedding-2` (text prefixes, no `task_type`), chosen by A/B at M2; 768 dimensions [Verified 2026-10-15: both current; `gemini-embedding-2` supports "over 100 languages"; **Arabic not explicitly confirmed**, so it must be measured] | Paid from GCP trial credit (Google first-party model, not an excluded partner model) [Unverified that trial credit applies; confirm at M0] |
@@ -155,7 +155,7 @@ C1 and C2 are confirmed real conflicts, so **no synthetic conflict fixture is ne
 | Option | Verdict |
 |---|---|
 | Full corpus every turn (~1.1k tokens) | Kept as an **evaluation-only oracle baseline** (M5 A/B) |
-| pgvector/Supabase hybrid (GET reference design) | Over-built for 16 chunks; the right step up at 50+ documents |
+| pgvector/Supabase hybrid (reference design) | Over-built for 16 chunks; the right step up at 50+ documents |
 | LangChain/LlamaIndex | Not used |
 | Streamlit/Gradio | Poor RTL and branding control |
 | Render / Fly / Railway | No Middle East region; weaker secrets and IAM. Kept as the **post-trial fallback** (§9) |
