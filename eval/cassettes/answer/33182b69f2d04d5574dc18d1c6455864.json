@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"في حال تغييرات الميزانية أو النطاق، يتم التصعيد إلى قائد المشروع (Project Lead)، الذي يعرض الأمر على اللجنة التوجيهية للمراجعة.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p2-s6\",\"quote\":\"For budget or scope changes, escalate to the Project Lead, who will bring the item to the steering committee for review.\"}]},{\"text\":\"القرارات التي تتطلب تغييرات في الميزانية تتجاوز 50,000 دولار يجب أن توافق عليها لجنة المالية (Finance Committee) قبل التنفيذ.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s2\",\"quote\":\"Decisions requiring budget changes above $50,000 must be approved by the Finance Committee before implementation.\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1313,
+  "output_tokens": 358,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

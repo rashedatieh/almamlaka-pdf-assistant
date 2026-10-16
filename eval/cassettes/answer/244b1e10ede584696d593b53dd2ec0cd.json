@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Project Overview sets out key details: Sara Al-Rashid is Project Lead, with a total approved budget of $2,400,000 and a project duration of 14 months.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Project Lead: Sara Al-Rashid\"},{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Total Approved Budget: $2,400,000\"},{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Project Duration: 14 months\"}]},{\"text\":\"The Project Overview states the project is sponsored by the Almamlaka TV Digital Strategy Department and overseen by a steering committee of representatives from Engineering, Content, Marketing, and Legal & Compliance.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s5\",\"quote\":\"The project is sponsored by the Almamlaka TV Digital Strategy Department and overseen by a steering committee consisting of representatives from Engineering, Content, Marketing, and Legal & Compliance.\"}]},{\"text\":\"The Project Overview gives a planned launch date of March 15, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Planned Launch Date: March 15, 2027\"}]},{\"text\":\"The Team & Governance Document states the public launch date was moved to April 1, 2027 to allow more time for smart TV integration testing.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"the public launch date was moved to April 1, 2027 to allow additional time for smart TV integration testing\"}]},{\"text\":\"The Budget & Timeline Breakdown says its figures reflect the originally approved budget, and that the total was adjusted to $2,600,000 after a December 2026 Finance Committee revision for additional smart TV integration costs.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"the total project budget was adjusted to $2,600,000 to account for additional smart TV integration costs not included in the original scope.\"}]},{\"text\":\"The Budget & Timeline Breakdown flags limited QA buffer: a development delay beyond March 1, 2027 directly risks the public launch, and smart TV integration testing is the highest-risk item.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s4\",\"quote\":\"Any delay in development completion beyond March 1, 2027 poses a direct risk to the public launch date.\"}]},{\"text\":\"The Team & Governance Document says the steering committee meets bi-weekly, and budget changes above $50,000 need Finance Committee approval before implementation.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s2\",\"quote\":\"The steering committee meets bi-weekly to review project status, budget utilization, and risk items.\"},{\"chunk_id\":\"GOV-p1-s2\",\"quote\":\"Decisions requiring budget changes above $50,000 must be approved by the Finance Committee before implementation.\"}]}],\"conflicts\":[{\"topic\":\"Public launch date\",\"claim_indexes\":[2,3]}],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2564,
+  "inference_geo": "global",
+  "input_tokens": 1194,
+  "output_tokens": 1139,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

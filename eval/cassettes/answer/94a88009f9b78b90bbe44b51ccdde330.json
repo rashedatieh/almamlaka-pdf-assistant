@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"تذكر وثيقة نظرة عامة على المشروع أن الميزانية الإجمالية المعتمدة هي 2,400,000 دولار.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Total Approved Budget: $2,400,000\"}]},{\"text\":\"تذكر وثيقة الميزانية والجدول الزمني أن إجمالي ميزانية المشروع عُدّل إلى 2,600,000 دولار بعد مراجعة من لجنة المالية في كانون الأول/ديسمبر 2026، وتصف الأرقام السابقة بأنها الميزانية المعتمدة في الأصل.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000 to account for additional smart TV integration costs not included in the original scope.\"}]},{\"text\":\"ويُظهر جدول التوزيع الربعي في وثيقة الميزانية والجدول الزمني إجمالياً قدره 2,400,000 دولار.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Total | $1,700,000 | $460,000 | $240,000 | $2,400,000\"}]}],\"conflicts\":[{\"topic\":\"الميزانية الإجمالية للمشروع\",\"claim_indexes\":[0,1]}],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2564,
+  "inference_geo": "global",
+  "input_tokens": 1180,
+  "output_tokens": 565,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

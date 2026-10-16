@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states exactly these four success metrics: MAU, average session duration, app store ratings, and content engagement rates.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The passage states a quarterly review by the steering committee will track progress against these metrics.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states the DEI's primary goal is a 40% increase in digital viewership within the first year of launch; 'the project' refers to the DEI initiative.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 710,
+  "output_tokens": 207,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

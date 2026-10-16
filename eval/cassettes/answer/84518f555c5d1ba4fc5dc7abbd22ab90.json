@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"يتولى قيادة المشروع سارة الرشيد (Sara Al-Rashid) بصفتها قائدة المشروع (Project Lead).\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Project Lead: Sara Al-Rashid\"},{\"chunk_id\":\"GOV-p1-s1\",\"quote\":\"Sara Al-Rashid | Project Lead | Digital Strategy\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1120,
+  "output_tokens": 215,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

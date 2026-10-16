@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"تخضع تعليقات المستخدمين وتفاعلاتهم على المنصة لإرشادات الإشراف على المحتوى الخاصة بتلفزيون المملكة (Almamlaka TV).\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p2-s5\",\"quote\":\"User-generated comments and interactions on the platform are subject to Almamlaka TV's content moderation guidelines.\"}]},{\"text\":\"يُزال المحتوى المخالف لمعايير المجتمع، وقد يؤدي تكرار المخالفات إلى تعليق الحساب.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p2-s5\",\"quote\":\"Content that violates community standards will be removed, and repeat violations may result in account suspension.\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1429,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

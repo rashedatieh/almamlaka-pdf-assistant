@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Development column total across all quarters is $1,700,000.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Total | $1,700,000 | $460,000 | $240,000 | $2,400,000\"}]},{\"text\":\"The quarterly Development figures of $450,000, $500,000, $400,000 and $350,000 add up to $1,700,000.\",\"kind\":\"derived\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Q1 2027 | $450,000 | $120,000 | $60,000 | $630,000\"},{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Q2 2027 | $500,000 | $150,000 | $70,000 | $720,000\"},{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Q3 2027 | $400,000 | $100,000 | $60,000 | $560,000\"},{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Q4 2027 | $350,000 | $90,000 | $50,000 | $490,000\"},{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Total | $1,700,000 | $460,000 | $240,000 | $2,400,000\"}]},{\"text\":\"The Budget document says these figures reflect the originally approved budget, and that the total project budget was later adjusted to $2,600,000 for smart TV integration costs.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Note that the figures above reflect the originally approved budget. Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000 to account for additional smart TV integration costs not included in the original scope.\"}]}],\"conflicts\":[],\"missing\":[\"The documents don't state a revised Development-only budget figure.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2358,
+  "inference_geo": "global",
+  "input_tokens": 1411,
+  "output_tokens": 669,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states the primary goal of the DEI is a 40% digital viewership increase within the first year of launch, from the Project Overview.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote lists the mobile app (iOS and Android), web streaming portal, and third-party smart TV integration as the initiative's covered platforms.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"Project Overview Key Details lists Total Approved Budget: $2,400,000.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"Budget & Timeline Breakdown states the Finance Committee's December 2026 revision adjusted the total budget to $2,600,000.\"},{\"claim_index\":4,\"verdict\":\"SUPPORTED\",\"reason\":\"Project Overview Key Details lists Planned Launch Date: March 15, 2027.\"},{\"claim_index\":5,\"verdict\":\"SUPPORTED\",\"reason\":\"Team & Governance Document says the public launch date was moved to April 1, 2027.\"},{\"claim_index\":6,\"verdict\":\"SUPPORTED\",\"reason\":\"Budget & Timeline Breakdown timeline table lists Public launch as March 15, 2027.\"},{\"claim_index\":7,\"verdict\":\"SUPPORTED\",\"reason\":\"Table allocates by quarter across development, marketing, operations, with Q1 total $630,000 and Q2 total $720,000.\"},{\"claim_index\":8,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states the steering committee meets bi-weekly to review project status, budget utilization, and risk items.\"},{\"claim_index\":9,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states budget changes above $50,000 must be approved by the Finance Committee before implementation.\"},{\"claim_index\":10,\"verdict\":\"SUPPORTED\",\"reason\":\"Overview names Sara Al-Rashid as Project Lead; governance document says budget/scope changes are escalated to the Project Lead who brings them to the steering committee.\"},{\"claim_index\":11,\"verdict\":\"SUPPORTED\",\"reason\":\"Neutral label asserting no fact.\"},{\"claim_index\":12,\"verdict\":\"SUPPORTED\",\"reason\":\"Neutral label asserting no fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 3525,
+  "output_tokens": 804,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

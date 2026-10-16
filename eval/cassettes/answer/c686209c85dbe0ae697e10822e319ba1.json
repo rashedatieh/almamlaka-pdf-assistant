@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Budget & Timeline Breakdown schedules QA & testing from Mar 1 to Mar 20, 2027, and the public launch for March 15, 2027, so QA would end after the launch date.\",\"kind\":\"derived\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"QA & testing | Mar 1 - Mar 20, 2027\"},{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"Public launch | March 15, 2027\"}]},{\"text\":\"The Team & Governance Document states the public launch date was moved to April 1, 2027, after the steering committee meeting on January 20, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"Following the steering committee meeting on January 20, 2027, the public launch date was moved to April 1, 2027\"}]},{\"text\":\"The Project Overview Document gives a planned launch date of March 15, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Planned Launch Date: March 15, 2027\"}]},{\"text\":\"The Budget & Timeline Breakdown notes that the QA and testing phase has limited buffer time.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s4\",\"quote\":\"The QA and testing phase has limited buffer time.\"}]}],\"conflicts\":[{\"topic\":\"Public launch date\",\"claim_indexes\":[1,2]}],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2564,
+  "inference_geo": "global",
+  "input_tokens": 1186,
+  "output_tokens": 557,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

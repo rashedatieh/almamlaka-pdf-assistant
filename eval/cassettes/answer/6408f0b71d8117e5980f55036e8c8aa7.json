@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"contradicted\",\"claims\":[{\"text\":\"The Budget & Timeline Breakdown states that the Engineering team flagged smart TV integration testing as the highest-risk item on the timeline.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s4\",\"quote\":\"The Engineering team has flagged smart TV integration testing as the highest-risk item on the timeline.\"}]},{\"text\":\"The Team & Governance Document describes smart TV integration testing as \\\"a high-risk item\\\", not as the highest-risk item.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"to allow additional time for smart TV integration testing, which was identified as a high-risk item in the project timeline.\"}]}],\"conflicts\":[],\"missing\":[\"The Project Overview Document does not describe smart TV testing as a risk item.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1220,
+  "output_tokens": 321,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Is smart TV testing described as the highest-risk item in every document?\",\"standalone_question_ar\":\"هل يُوصَف اختبار التلفاز الذكي على أنه البند الأعلى خطورة في كل وثيقة؟\",\"searches\":[{\"query\":\"smart TV integration testing risk\",\"lang\":\"en\"},{\"query\":\"Risk Notes highest risk item\",\"lang\":\"en\"},{\"query\":\"smart TV QA & testing delay risk timeline\",\"lang\":\"en\"},{\"query\":\"risks mitigation platform scope governance escalation\",\"lang\":\"en\"}],\"subquestions\":[\"Does the Project Overview Document describe smart TV testing as the highest-risk item?\",\"Does the Budget & Timeline Breakdown (Risk Notes) describe smart TV testing as the highest-risk item?\",\"Does the Team & Governance Document describe smart TV testing as the highest-risk item?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 59,
+  "output_tokens": 360,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,64 @@
+# ---- Secrets: never committed (docs/ENGINEERING_RULES.md non-negotiable 7) ----------------------------------
+.env
+.env.*
+!.env.example
+app-secrets*.json
+*.pem
+*.key
+*.p12
+*-sa-key*.json
+*service-account*.json
+secrets/
+
+# ---- Videos: the demo video is attached to the submission, not committed -------------------
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.avi
+
+# ---- LLM cassettes: raw recordings may contain request headers -------------------------------
+# Only sanitised cassettes (headers stripped by the recorder) are committed.
+**/cassettes/_raw/
+*.raw.json
+*.raw.yaml
+
+# ---- Data caches (the built index in data/index and data/derived IS committed) --------------
+.cache/
+data/cache/
+data/**/_cache/
+*.tts-cache/
+eval/reports/_tmp/
+
+# ---- Python / tooling ------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# ---- Playwright ------------------------------------------------------------------------------
+test-results/
+playwright-report/
+
+# ---- Release artefacts (built by make release-zip) -----------------------------------------
+release/
+*.zip
+
+# ---- Logs, editors, OS -----------------------------------------------------------------------
+*.log
+logs/
+.idea/
+.vscode/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+
+# ---- Web UI (web/) ----------------------------------------------------------------------------
+node_modules/

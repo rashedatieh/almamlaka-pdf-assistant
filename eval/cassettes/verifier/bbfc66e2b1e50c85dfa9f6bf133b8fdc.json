@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote and passage state the steering committee consists of representatives from Engineering, Content, Marketing, and Legal & Compliance, matching the claim exactly.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"Absence claim that only states the documents do not name individual steering committee members; it asserts no other fact.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"Absence claim that only states the documents do not name individual steering committee members; it asserts no other fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 327,
+  "output_tokens": 207,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

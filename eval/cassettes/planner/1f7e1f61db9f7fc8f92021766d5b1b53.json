@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Does QA & testing finish before the public launch?\",\"standalone_question_ar\":\"هل تنتهي مرحلة ضمان الجودة والاختبار قبل الإطلاق العام؟\",\"searches\":[{\"query\":\"QA & testing milestone target date project timeline\",\"lang\":\"en\"},{\"query\":\"public launch target date\",\"lang\":\"en\"},{\"query\":\"revised launch date moved timeline change\",\"lang\":\"en\"},{\"query\":\"QA testing completion before launch risk notes\",\"lang\":\"en\"}],\"subquestions\":[\"When does QA & testing finish?\",\"When is the public launch, including any revised launch date?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 50,
+  "output_tokens": 265,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

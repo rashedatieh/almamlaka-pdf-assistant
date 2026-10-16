@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Project Lead for the Digital Expansion Initiative is Sara Al-Rashid.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Project Lead: Sara Al-Rashid\"},{\"chunk_id\":\"GOV-p1-s1\",\"quote\":\"Sara Al-Rashid | Project Lead | Digital Strategy\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2358
+  },
+  "cache_creation_input_tokens": 2358,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1141,
+  "output_tokens": 194,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

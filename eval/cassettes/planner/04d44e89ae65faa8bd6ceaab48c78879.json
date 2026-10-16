@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Who is the CEO of Almamlaka TV?\",\"standalone_question_ar\":\"من هو الرئيس التنفيذي لقناة المملكة؟\",\"searches\":[{\"query\":\"CEO of Almamlaka TV\",\"lang\":\"en\"},{\"query\":\"chief executive officer stakeholders steering committee\",\"lang\":\"en\"},{\"query\":\"Project Team roles names departments\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 55,
+  "output_tokens": 206,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

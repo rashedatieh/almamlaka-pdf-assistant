@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote from the Project Overview Document's Introduction states the DEI is aimed at modernizing the channel's digital presence across streaming, mobile, and social platforms; the claim restates it faithfully.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Platform Scope section lists exactly three platforms (mobile app, web streaming portal, third-party smart TV integration) and the passage names no social media platform.\"},{\"claim_index\":2,\"verdict\":\"UNSUPPORTED\",\"reason\":\"The Overview's introduction explicitly mentions 'social platforms' as part of the initiative's aim, so asserting the documents don't describe social media work within scope is not a pure absence statement and is contradicted in part by the cited evidence in the claims' own context.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 729,
+  "output_tokens": 294,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

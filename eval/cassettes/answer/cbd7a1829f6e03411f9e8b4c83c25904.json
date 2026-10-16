@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"الهدف الرئيسي للمبادرة هو زيادة المشاهدة الرقمية بنسبة 40% خلال السنة الأولى من الإطلاق.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s2\",\"quote\":\"The primary goal of the DEI is to increase digital viewership by 40% within the first year of launch.\"}]},{\"text\":\"أما الأهداف الثانوية فتشمل تحسين إمكانية اكتشاف المحتوى، وتحديث تطبيق الهاتف المحمول، وإنشاء نظام موحد لإدارة المحتوى عبر جميع المنصات.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s2\",\"quote\":\"Secondary goals include improving content discoverability, modernizing the mobile application, and establishing a unified content management system across all platforms.\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2358,
+  "inference_geo": "global",
+  "input_tokens": 1313,
+  "output_tokens": 363,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

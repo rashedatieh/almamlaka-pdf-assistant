@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Do the documents disagree about how often the steering committee meets?\",\"standalone_question_ar\":\"هل تتعارض المستندات فيما يتعلق بمدى تكرار اجتماع اللجنة التوجيهية؟\",\"searches\":[{\"query\":\"steering committee meeting frequency\",\"lang\":\"en\"},{\"query\":\"Governance Structure steering committee meets monthly weekly bi-weekly quarterly\",\"lang\":\"en\"},{\"query\":\"steering committee meetings stakeholders Project Overview\",\"lang\":\"en\"},{\"query\":\"steering committee meeting schedule revised changed\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 57,
+  "output_tokens": 275,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

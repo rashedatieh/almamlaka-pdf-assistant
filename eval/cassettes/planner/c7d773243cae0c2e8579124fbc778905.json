@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"What is the main goal of the Digital Expansion Initiative?\",\"standalone_question_ar\":\"ما الهدف الرئيسي لمبادرة التوسع الرقمي؟\",\"searches\":[{\"query\":\"Project Goals Digital Expansion Initiative main goal\",\"lang\":\"en\"},{\"query\":\"Introduction Almamlaka TV Digital Expansion Initiative purpose\",\"lang\":\"en\"},{\"query\":\"Success Metrics objectives of the initiative\",\"lang\":\"en\"},{\"query\":\"الهدف الرئيسي لمبادرة التوسع الرقمي\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 67,
+  "output_tokens": 276,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

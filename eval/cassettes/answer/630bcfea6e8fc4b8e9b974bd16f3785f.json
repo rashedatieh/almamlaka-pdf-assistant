@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"مبادرة التوسع الرقمي (DEI) هي مبادرة جديدة تطلقها قناة المملكة (Almamlaka TV) لتحديث حضور القناة الرقمي عبر منصات البث والهاتف المحمول ووسائل التواصل الاجتماعي.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s1\",\"quote\":\"Almamlaka TV is launching a new initiative called the Digital Expansion Initiative (DEI), aimed at modernizing the channel's digital presence across streaming, mobile, and social platforms.\"}]},{\"text\":\"الهدف الأساسي هو زيادة المشاهدة الرقمية بنسبة 40% خلال السنة الأولى من الإطلاق.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s2\",\"quote\":\"The primary goal of the DEI is to increase digital viewership by 40% within the first year of launch.\"}]},{\"text\":\"تشمل الأهداف الثانوية تحسين إمكانية اكتشاف المحتوى، وتحديث تطبيق الهاتف المحمول، وإنشاء نظام موحد لإدارة المحتوى عبر جميع المنصات.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s2\",\"quote\":\"Secondary goals include improving content discoverability, modernizing the mobile application, and establishing a unified content management system across all platforms.\"}]},{\"text\":\"تغطي المبادرة ثلاث منصات: تطبيق الهاتف المحمول (iOS وAndroid)، وبوابة البث عبر الويب، والتكامل مع منصات التلفزيون الذكي التابعة لجهات خارجية.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s4\",\"quote\":\"The initiative covers three main platforms: the Almamlaka TV mobile application (iOS and Android), the web streaming portal, and integration with third-party smart TV platforms.\"}]},{\"text\":\"يشرف على المشروع لجنة توجيهية تضم ممثلين عن الهندسة والمحتوى والتسويق والشؤون القانونية والامتثال.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s5\",\"quote\":\"overseen by a steering committee consisting of representatives from Engineering, Content, Marketing, and Legal & Compliance.\"}]},{\"text\":\"تُقاس النجاحات عبر المستخدمين النشطين شهريًا، ومتوسط مدة الجلسة، وتقييمات متجر التطبيقات، ومعدلات التفاعل مع المحتوى.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s6\",\"quote\":\"Success will be measured through monthly active users (MAU), average session duration, app store ratings, and content engagement rates.\"}]},{\"text\":\"قائدة المشروع هي سارة الرشيد (Sara Al-Rashid)، ومدة المشروع 14 شهرًا.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Project Lead: Sara Al-Rashid\"},{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Project Duration: 14 months\"}]},{\"text\":\"تذكر وثيقة نظرة عامة على المشروع أن إجمالي الميزانية المعتمدة هو 2,400,000 دولار.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Total Approved Budget: $2,400,000\"}]},{\"text\":\"تذكر وثيقة الميزانية والجدول الزمني أن الميزانية الإجمالية عُدّلت إلى 2,600,000 دولار بعد مراجعة لجنة المالية في ديسمبر 2026، وأن الأرقام الأخرى تعكس الميزانية المعتمدة أصلًا.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000\"}]},{\"text\":\"تذكر وثيقة نظرة عامة على المشروع أن تاريخ الإطلاق المخطط هو 15 آذار/مارس 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Planned Launch Date: March 15, 2027\"}]},{\"text\":\"تذكر وثيقة الفريق والحوكمة أن تاريخ الإطلاق العام نُقل إلى 1 نيسان/أبريل 2027 لإتاحة وقت إضافي لاختبار تكامل التلفزيون الذكي.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"the public launch date was moved to April 1, 2027 to allow additional time for smart TV integration testing\"}]}],\"conflicts\":[{\"topic\":\"إجمالي ميزانية المشروع\",\"claim_indexes\":[7,8]},{\"topic\":\"تاريخ الإطلاق العام\",\"claim_indexes\":[9,10]}],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1588,
+  "output_tokens": 1868,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Budget Notes section states that after the Finance Committee's December 2026 revision the total project budget was adjusted to $2,600,000; document and details match.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The quarterly table totals show Development $1,700,000 and an overall total of $2,400,000, and the Budget Notes say the figures above reflect the originally approved budget.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 1006,
+  "output_tokens": 170,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

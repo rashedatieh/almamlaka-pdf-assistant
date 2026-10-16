@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"none\",\"claims\":[{\"text\":\"تذكر الوثائق أن المستخدمين النشطين شهرياً (MAU) من المقاييس التي سيُقاس بها نجاح المبادرة.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s6\",\"quote\":\"Success will be measured through monthly active users (MAU), average session duration, app store ratings, and content engagement rates.\"}]},{\"text\":\"لا تذكر الوثائق عدد المستخدمين النشطين شهرياً الحالي.\",\"kind\":\"absence\",\"evidence\":[]}],\"conflicts\":[],\"missing\":[\"لا تذكر الوثائق أي رقم فعلي لعدد المستخدمين النشطين شهرياً.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2564,
+  "inference_geo": "global",
+  "input_tokens": 1295,
+  "output_tokens": 284,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

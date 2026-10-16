@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"يحدد جدول المشروع الزمني موعد مراجعة ما بعد الإطلاق في 15 حزيران/يونيو 2027.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"Post-launch review | Jun 15, 2027\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2564,
+  "inference_geo": "global",
+  "input_tokens": 1007,
+  "output_tokens": 165,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

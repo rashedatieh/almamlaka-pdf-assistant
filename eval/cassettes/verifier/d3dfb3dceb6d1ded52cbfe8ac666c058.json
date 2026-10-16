@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Project Overview Document quote states 'Total Approved Budget: $2,400,000', matching the claim.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Budget & Timeline Breakdown passage states the Finance Committee revision in December 2026 adjusted the total to $2,600,000.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"Both inputs ($2,600,000 and $2,400,000) appear in the cited evidence and 2,600,000 - 2,400,000 = 200,000.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document states budget changes above $50,000 must be approved by the Finance Committee before implementation.\"},{\"claim_index\":4,\"verdict\":\"SUPPORTED\",\"reason\":\"A neutral label with no factual assertion.\"},{\"claim_index\":5,\"verdict\":\"UNSUPPORTED\",\"reason\":\"The documents state the Finance Committee made the revision ('Following a revision by the Finance Committee'), so the absence claim is contradicted or at least not cleanly true; it is also not a bare statement of nothing being stated.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 1237,
+  "output_tokens": 433,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

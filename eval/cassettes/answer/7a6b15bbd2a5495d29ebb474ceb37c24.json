@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"none\",\"claims\":[{\"text\":\"تنص وثيقة الميزانية والجدول الزمني على أن لجنة المالية عدّلت إجمالي ميزانية المشروع إلى 2,600,000 دولار بعد مراجعة في كانون الأول/ديسمبر 2026، بسبب تكاليف إضافية لدمج التلفزيونات الذكية.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000 to account for additional smart TV integration costs not included in the original scope.\"}]},{\"text\":\"وكانت الميزانية المعتمدة أصلاً للتطوير 1,700,000 دولار.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Total | $1,700,000 | $460,000 | $240,000 | $2,400,000\"}]}],\"conflicts\":[],\"missing\":[\"لا تذكر الوثائق مقدار ميزانية التطوير وحدها بعد التعديل، بل إجمالي ميزانية المشروع فقط.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2358,
+  "inference_geo": "global",
+  "input_tokens": 1205,
+  "output_tokens": 439,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

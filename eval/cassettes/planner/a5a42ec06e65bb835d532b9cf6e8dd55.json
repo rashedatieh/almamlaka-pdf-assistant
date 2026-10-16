@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Who is the Compliance Officer, and which department are they in?\",\"standalone_question_ar\":\"من هو مسؤول الامتثال (Compliance Officer) وفي أي قسم يعمل؟\",\"searches\":[{\"query\":\"Compliance Officer project team name department\",\"lang\":\"en\"},{\"query\":\"Project Team table roles departments\",\"lang\":\"en\"},{\"query\":\"Compliance Officer data privacy content moderation escalation contacts\",\"lang\":\"en\"}],\"subquestions\":[\"Who is the Compliance Officer?\",\"Which department is the Compliance Officer in?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 54,
+  "output_tokens": 253,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

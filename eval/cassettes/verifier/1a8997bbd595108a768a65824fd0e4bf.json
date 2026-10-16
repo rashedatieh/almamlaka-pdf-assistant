@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Budget & Timeline Breakdown's Risk Notes section states the Engineering team flagged smart TV integration testing as the highest-risk item on the timeline.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document calls smart TV integration testing 'a high-risk item'; the quote does not describe it as the highest-risk item, so the claim accurately reports its wording.\"},{\"claim_index\":2,\"verdict\":\"UNSUPPORTED\",\"reason\":\"An absence claim is supported only when it merely says the documents don't state something. Here it asserts a fact about what the Project Overview Document contains, and no evidence supports that assertion.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 581,
+  "output_tokens": 265,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

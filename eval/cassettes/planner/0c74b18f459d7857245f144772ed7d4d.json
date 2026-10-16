@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Will user data be shared with third parties?\",\"standalone_question_ar\":\"هل ستتم مشاركة بيانات المستخدمين مع أطراف ثالثة؟\",\"searches\":[{\"query\":\"Data Privacy Policy user data shared with third parties\",\"lang\":\"en\"},{\"query\":\"data protection personal data sharing consent third-party\",\"lang\":\"en\"},{\"query\":\"user data privacy compliance Compliance Officer\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 50,
+  "output_tokens": 221,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

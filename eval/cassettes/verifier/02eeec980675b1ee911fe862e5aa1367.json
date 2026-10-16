@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote and passage from the Budget & Timeline Breakdown (Risk Notes) state that the Engineering team flagged smart TV integration testing as the highest-risk item on the timeline.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document passage says smart TV integration testing was identified as 'a high-risk item', not 'the highest-risk item'; the claim accurately reports this wording.\"},{\"claim_index\":2,\"verdict\":\"UNSUPPORTED\",\"reason\":\"An absence claim that asserts a specific fact about what the Project Overview Document does not contain, with no evidence provided; it is not a plain statement that the documents don't state something.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 576,
+  "output_tokens": 269,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

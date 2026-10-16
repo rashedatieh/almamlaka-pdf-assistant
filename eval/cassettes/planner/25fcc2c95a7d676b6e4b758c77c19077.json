@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Since the marketing budget is $500,000 in total, how is it split by quarter?\",\"standalone_question_ar\":\"بما أن ميزانية التسويق هي 500,000 دولار في المجموع، كيف يتم توزيعها حسب الأرباع؟\",\"searches\":[{\"query\":\"Quarterly Budget Allocation marketing Q1 Q2 Q3 Q4 2027\",\"lang\":\"en\"},{\"query\":\"total marketing budget by quarter\",\"lang\":\"en\"},{\"query\":\"Budget Notes budget revised marketing allocation\",\"lang\":\"en\"},{\"query\":\"توزيع ميزانية التسويق حسب الربع\",\"lang\":\"ar\"}],\"subquestions\":[\"What is the total marketing budget according to the documents?\",\"How is the marketing budget split across Q1 to Q4 2027?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 64,
+  "output_tokens": 336,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"How often does the steering committee meet?\",\"standalone_question_ar\":\"كم مرة تجتمع اللجنة التوجيهية؟\",\"searches\":[{\"query\":\"steering committee meeting frequency\",\"lang\":\"en\"},{\"query\":\"Governance Structure steering committee meets\",\"lang\":\"en\"},{\"query\":\"steering committee meetings schedule changed or revised\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 49,
+  "output_tokens": 200,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,687 @@
+{
+ "lang": "en",
+ "title": "Executive report: Almamlaka TV Digital Expansion Initiative",
+ "sections": [
+  {
+   "id": "summary",
+   "title": "Executive summary",
+   "paragraphs": [
+    {
+     "text": "Almamlaka TV is launching the Digital Expansion Initiative (DEI) to modernize the channel's digital presence across streaming, mobile and social platforms. The primary goal is to increase digital viewership by 40% within the first year of launch. Secondary goals are better content discoverability, a modernized mobile application and a unified content management system across all platforms. Success will be measured through monthly active users, average session duration, app store ratings and content engagement rates.",
+     "citations": [
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "glance",
+   "title": "Project at a glance",
+   "paragraphs": [
+    {
+     "text": "The project is sponsored by the Almamlaka TV Digital Strategy Department. The project duration is 14 months.",
+     "citations": [
+      5,
+      6
+     ]
+    },
+    {
+     "text": "The initiative covers three platforms: the mobile application for iOS and Android, the web streaming portal, and integration with third-party smart TV platforms. Each platform will receive a redesigned user interface aligned with the updated brand guidelines. The mobile application will support content and subtitles in 12 languages, including Arabic, English, French and Spanish, with more planned in future phases.",
+     "citations": [
+      7,
+      8,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "budget",
+   "title": "Budget",
+   "paragraphs": [
+    {
+     "text": "The Budget & Timeline Breakdown allocates the approved budget per quarter across platform development, marketing and operations. Q1 2027 is allocated $630,000: $450,000 for development, $120,000 for marketing and $60,000 for operations. Q2 2027 is allocated $720,000: $500,000 for development, $150,000 for marketing and $70,000 for operations. Q3 2027 is allocated $560,000: $400,000 for development, $100,000 for marketing and $60,000 for operations. Q4 2027 is allocated $490,000: $350,000 for development, $90,000 for marketing and $50,000 for operations.",
+     "citations": [
+      10,
+      11,
+      12,
+      13,
+      14
+     ]
+    },
+    {
+     "text": "Across the four quarters, the table allocates $1,700,000 to development, $460,000 to marketing and $240,000 to operations. Q2 2027 carries the largest quarterly allocation at $720,000, and Q4 2027 the smallest at $490,000.",
+     "citations": [
+      15,
+      11,
+      12,
+      13,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timeline",
+   "title": "Timeline",
+   "paragraphs": [
+    {
+     "text": "Requirements are to be finalized by Jan 10, 2027. The mobile app design freeze is targeted for Feb 5, 2027. Development is targeted for completion by Mar 1, 2027. QA and testing are scheduled for Mar 1 - Mar 20, 2027. A post-launch review is targeted for Jun 15, 2027.",
+     "citations": [
+      16,
+      17,
+      18,
+      19,
+      20
+     ]
+    },
+    {
+     "text": "In the same timeline table, the QA and testing window ending Mar 20, 2027 extends past the public launch date of March 15, 2027.",
+     "citations": [
+      19,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "team_governance",
+   "title": "Team & governance",
+   "paragraphs": [
+    {
+     "text": "Sara Al-Rashid is the Project Lead, from Digital Strategy. Omar Fayez is the Lead Engineer, from Engineering. Lina Haddad is the UX Design Lead, from Design. Khalid Nasser is the Marketing Lead, from Marketing. Rana Sabbagh is the Compliance Officer, from Legal & Compliance.",
+     "citations": [
+      22,
+      23,
+      24,
+      25,
+      26
+     ]
+    },
+    {
+     "text": "A steering committee of representatives from Engineering, Content, Marketing, and Legal & Compliance oversees the project. The steering committee meets bi-weekly to review project status, budget utilization and risk items. The steering committee also conducts a quarterly review of progress against the success metrics. Budget changes above $50,000 must be approved by the Finance Committee before implementation. Technical escalations go to the Engineering Lead, while budget or scope changes go to the Project Lead, who brings them to the steering committee.",
+     "citations": [
+      5,
+      27,
+      28,
+      29,
+      30
+     ]
+    },
+    {
+     "text": "User data will not be shared with third parties without explicit consent, except where required by law. Content that violates community standards will be removed, and repeat violations may lead to account suspension.",
+     "citations": [
+      31,
+      32
+     ]
+    }
+   ]
+  },
+  {
+   "id": "disagreements",
+   "title": "Where the documents disagree",
+   "paragraphs": [
+    {
+     "text": "The Project Overview states a total approved budget of $2,400,000. The Budget & Timeline Breakdown's quarterly table totals $2,400,000, which that document describes as the originally approved budget. The Budget & Timeline Breakdown also states that the Finance Committee adjusted the total budget to $2,600,000 in December 2026 to cover additional smart TV integration costs.",
+     "citations": [
+      33,
+      15,
+      34,
+      35
+     ]
+    },
+    {
+     "text": "The Project Overview states a planned launch date of March 15, 2027. The Budget & Timeline Breakdown lists the public launch for March 15, 2027. The Team & Governance Document states that after the steering committee meeting on January 20, 2027, the public launch was moved to April 1, 2027 to allow more time for smart TV integration testing.",
+     "citations": [
+      36,
+      21,
+      37
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "title": "Risks",
+   "paragraphs": [
+    {
+     "text": "The QA and testing phase has limited buffer, and any delay in development completion beyond March 1, 2027 directly risks the public launch date. The Engineering team has flagged smart TV integration testing as the highest-risk item on the timeline.",
+     "citations": [
+      38,
+      39,
+      40
+     ]
+    }
+   ]
+  }
+ ],
+ "citations": [
+  {
+   "n": 1,
+   "chunkId": "OVR-p1-s1",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Introduction",
+   "quote": "Almamlaka TV is launching a new initiative called the Digital Expansion Initiative (DEI), aimed at modernizing the channel's digital presence across streaming, mobile, and social platforms.",
+   "start": 0,
+   "end": 189
+  },
+  {
+   "n": 2,
+   "chunkId": "OVR-p1-s2",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "2. Project Goals",
+   "quote": "The primary goal of the DEI is to increase digital viewership by 40% within the first year of launch.",
+   "start": 0,
+   "end": 101
+  },
+  {
+   "n": 3,
+   "chunkId": "OVR-p1-s2",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "2. Project Goals",
+   "quote": "Secondary goals include improving content discoverability, modernizing the mobile application, and establishing a unified content management system across all platforms.",
+   "start": 102,
+   "end": 271
+  },
+  {
+   "n": 4,
+   "chunkId": "OVR-p2-s6",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "6. Success Metrics",
+   "quote": "Success will be measured through monthly active users (MAU), average session duration, app store ratings, and content engagement rates.",
+   "start": 0,
+   "end": 135
+  },
+  {
+   "n": 5,
+   "chunkId": "OVR-p2-s5",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "5. Stakeholders",
+   "quote": "The project is sponsored by the Almamlaka TV Digital Strategy Department and overseen by a steering committee consisting of representatives from Engineering, Content, Marketing, and Legal & Compliance.",
+   "start": 0,
+   "end": 201
+  },
+  {
+   "n": 6,
+   "chunkId": "OVR-p1-s3",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "3. Key Details",
+   "quote": "Project Duration: 14 months",
+   "start": 99,
+   "end": 126
+  },
+  {
+   "n": 7,
+   "chunkId": "OVR-p2-s4",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "4. Platform Scope",
+   "quote": "The initiative covers three main platforms: the Almamlaka TV mobile application (iOS and Android), the web streaming portal, and integration with third-party smart TV platforms.",
+   "start": 0,
+   "end": 177
+  },
+  {
+   "n": 8,
+   "chunkId": "OVR-p2-s4",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "4. Platform Scope",
+   "quote": "Each platform will receive a redesigned user interface aligned with the updated Almamlaka TV brand guidelines.",
+   "start": 178,
+   "end": 288
+  },
+  {
+   "n": 9,
+   "chunkId": "OVR-p2-s4",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "4. Platform Scope",
+   "quote": "As part of the accessibility improvements, the mobile application will support content and subtitles in 12 languages, including Arabic, English, French, and Spanish, with plans to expand to additional languages in future phases.",
+   "start": 289,
+   "end": 517
+  },
+  {
+   "n": 10,
+   "chunkId": "BUD-p1-s1",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Quarterly Budget Allocation",
+   "quote": "The table below outlines the approved budget allocation per quarter for the Digital Expansion Initiative, covering platform development, marketing, and operations.",
+   "start": 0,
+   "end": 163
+  },
+  {
+   "n": 11,
+   "chunkId": "BUD-p1-s1",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Quarterly Budget Allocation",
+   "quote": "Q1 2027 | $450,000 | $120,000 | $60,000 | $630,000",
+   "start": 219,
+   "end": 269
+  },
+  {
+   "n": 12,
+   "chunkId": "BUD-p1-s1",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Quarterly Budget Allocation",
+   "quote": "Q2 2027 | $500,000 | $150,000 | $70,000 | $720,000",
+   "start": 270,
+   "end": 320
+  },
+  {
+   "n": 13,
+   "chunkId": "BUD-p1-s1",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Quarterly Budget Allocation",
+   "quote": "Q3 2027 | $400,000 | $100,000 | $60,000 | $560,000",
+   "start": 321,
+   "end": 371
+  },
+  {
+   "n": 14,
+   "chunkId": "BUD-p1-s1",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Quarterly Budget Allocation",
+   "quote": "Q4 2027 | $350,000 | $90,000 | $50,000 | $490,000",
+   "start": 372,
+   "end": 421
+  },
+  {
+   "n": 15,
+   "chunkId": "BUD-p1-s1",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Quarterly Budget Allocation",
+   "quote": "Total | $1,700,000 | $460,000 | $240,000 | $2,400,000",
+   "start": 422,
+   "end": 475
+  },
+  {
+   "n": 16,
+   "chunkId": "BUD-p2-s3",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "3. Project Timeline",
+   "quote": "Requirements finalized | Jan 10, 2027",
+   "start": 24,
+   "end": 61
+  },
+  {
+   "n": 17,
+   "chunkId": "BUD-p2-s3",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "3. Project Timeline",
+   "quote": "Mobile app design freeze | Feb 5, 2027",
+   "start": 62,
+   "end": 100
+  },
+  {
+   "n": 18,
+   "chunkId": "BUD-p2-s3",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "3. Project Timeline",
+   "quote": "Development complete | Mar 1, 2027",
+   "start": 101,
+   "end": 135
+  },
+  {
+   "n": 19,
+   "chunkId": "BUD-p2-s3",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "3. Project Timeline",
+   "quote": "QA & testing | Mar 1 - Mar 20, 2027",
+   "start": 136,
+   "end": 171
+  },
+  {
+   "n": 20,
+   "chunkId": "BUD-p2-s3",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "3. Project Timeline",
+   "quote": "Post-launch review | Jun 15, 2027",
+   "start": 203,
+   "end": 236
+  },
+  {
+   "n": 21,
+   "chunkId": "BUD-p2-s3",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "3. Project Timeline",
+   "quote": "Public launch | March 15, 2027",
+   "start": 172,
+   "end": 202
+  },
+  {
+   "n": 22,
+   "chunkId": "GOV-p1-s1",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Project Team",
+   "quote": "Sara Al-Rashid | Project Lead | Digital Strategy",
+   "start": 25,
+   "end": 73
+  },
+  {
+   "n": 23,
+   "chunkId": "GOV-p1-s1",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Project Team",
+   "quote": "Omar Fayez | Lead Engineer | Engineering",
+   "start": 74,
+   "end": 114
+  },
+  {
+   "n": 24,
+   "chunkId": "GOV-p1-s1",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Project Team",
+   "quote": "Lina Haddad | UX Design Lead | Design",
+   "start": 115,
+   "end": 152
+  },
+  {
+   "n": 25,
+   "chunkId": "GOV-p1-s1",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Project Team",
+   "quote": "Khalid Nasser | Marketing Lead | Marketing",
+   "start": 153,
+   "end": 195
+  },
+  {
+   "n": 26,
+   "chunkId": "GOV-p1-s1",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "1. Project Team",
+   "quote": "Rana Sabbagh | Compliance Officer | Legal & Compliance",
+   "start": 196,
+   "end": 250
+  },
+  {
+   "n": 27,
+   "chunkId": "GOV-p1-s2",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "2. Governance Structure",
+   "quote": "The steering committee meets bi-weekly to review project status, budget utilization, and risk items.",
+   "start": 0,
+   "end": 100
+  },
+  {
+   "n": 28,
+   "chunkId": "OVR-p2-s6",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "6. Success Metrics",
+   "quote": "A quarterly review will be conducted by the steering committee to track progress against these metrics.",
+   "start": 136,
+   "end": 239
+  },
+  {
+   "n": 29,
+   "chunkId": "GOV-p1-s2",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "2. Governance Structure",
+   "quote": "Decisions requiring budget changes above $50,000 must be approved by the Finance Committee before implementation.",
+   "start": 101,
+   "end": 214
+  },
+  {
+   "n": 30,
+   "chunkId": "GOV-p2-s6",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "6. Escalation Contacts",
+   "quote": "For technical escalations, contact the Engineering Lead. For budget or scope changes, escalate to the Project Lead, who will bring the item to the steering committee for review.",
+   "start": 0,
+   "end": 177
+  },
+  {
+   "n": 31,
+   "chunkId": "GOV-p2-s4",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "4. Data Privacy Policy",
+   "quote": "User data will not be shared with third parties without explicit consent, except where required by law.",
+   "start": 151,
+   "end": 254
+  },
+  {
+   "n": 32,
+   "chunkId": "GOV-p2-s5",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "5. Content Moderation Policy",
+   "quote": "Content that violates community standards will be removed, and repeat violations may result in account suspension.",
+   "start": 118,
+   "end": 232
+  },
+  {
+   "n": 33,
+   "chunkId": "OVR-p1-s3",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "3. Key Details",
+   "quote": "Total Approved Budget: $2,400,000",
+   "start": 29,
+   "end": 62
+  },
+  {
+   "n": 34,
+   "chunkId": "BUD-p1-s2",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "2. Budget Notes",
+   "quote": "Note that the figures above reflect the originally approved budget.",
+   "start": 0,
+   "end": 67
+  },
+  {
+   "n": 35,
+   "chunkId": "BUD-p1-s2",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "2. Budget Notes",
+   "quote": "Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000 to account for additional smart TV integration costs not included in the original scope.",
+   "start": 68,
+   "end": 272
+  },
+  {
+   "n": 36,
+   "chunkId": "OVR-p1-s3",
+   "docId": "OVR",
+   "docSubtitle": "Project Overview Document",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "3. Key Details",
+   "quote": "Planned Launch Date: March 15, 2027",
+   "start": 63,
+   "end": 98
+  },
+  {
+   "n": 37,
+   "chunkId": "GOV-p1-s3",
+   "docId": "GOV",
+   "docSubtitle": "Team & Governance Document",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "pdfPage": 1,
+   "printedLabel": null,
+   "section": "3. Revised Launch Date",
+   "quote": "Following the steering committee meeting on January 20, 2027, the public launch date was moved to April 1, 2027 to allow additional time for smart TV integration testing, which was identified as a high-risk item in the project timeline.",
+   "start": 0,
+   "end": 236
+  },
+  {
+   "n": 38,
+   "chunkId": "BUD-p2-s4",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "4. Risk Notes",
+   "quote": "The QA and testing phase has limited buffer time.",
+   "start": 0,
+   "end": 49
+  },
+  {
+   "n": 39,
+   "chunkId": "BUD-p2-s4",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "4. Risk Notes",
+   "quote": "Any delay in development completion beyond March 1, 2027 poses a direct risk to the public launch date.",
+   "start": 50,
+   "end": 153
+  },
+  {
+   "n": 40,
+   "chunkId": "BUD-p2-s4",
+   "docId": "BUD",
+   "docSubtitle": "Budget & Timeline Breakdown",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "pdfPage": 2,
+   "printedLabel": null,
+   "section": "4. Risk Notes",
+   "quote": "The Engineering team has flagged smart TV integration testing as the highest-risk item on the timeline.",
+   "start": 154,
+   "end": 257
+  }
+ ],
+ "model": "claude-opus-5-5",
+ "templateVersion": "exec-v1",
+ "claimsVerified": 42,
+ "claimsRemoved": 0
+}

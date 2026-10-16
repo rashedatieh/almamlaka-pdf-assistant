@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Does the Almamlaka TV Digital Expansion Initiative include social media platforms?\",\"standalone_question_ar\":\"هل تشمل مبادرة التوسع الرقمي لقناة المملكة منصات التواصل الاجتماعي؟\",\"searches\":[{\"query\":\"Platform Scope social media platforms\",\"lang\":\"en\"},{\"query\":\"Digital Expansion Initiative platforms included web mobile app smart TV integration\",\"lang\":\"en\"},{\"query\":\"social media marketing campaign distribution channels\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 51,
+  "output_tokens": 252,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

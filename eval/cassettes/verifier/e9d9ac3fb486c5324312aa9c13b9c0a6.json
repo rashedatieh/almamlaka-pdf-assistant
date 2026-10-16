@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":2,\"verdict\":\"PARTIAL\",\"reason\":\"The evidence states the figures reflect the originally approved budget and the total was adjusted to $2,600,000, but it says nothing about whether the documents break the adjustment down by category or quarter; that part is an unsupported absence assertion within a fact claim.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"Absence claim that only says the documents don't state how the revised budget is allocated to development across quarters; it asserts no other fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 390,
+  "output_tokens": 185,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

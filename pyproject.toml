@@ -1,0 +1,64 @@
+[project]
+name = "almamlaka-pdf-assistant"
+version = "0.0.0"
+description = "Bilingual (Arabic/English) cited-answer assistant over three PDFs. MVP prototype by Rashed Atieh for evaluation; not an official Almamlaka TV product."
+readme = "README.md"
+requires-python = "==3.12.*"
+# Exact versions taken from PyPI on 2026-10-15 (docs/adr/0001-stack-and-models.md, "Dependencies").
+dependencies = [
+    "anthropic==1.14.0",
+    "fastapi==0.143.2",
+    "google-genai==2.31.0",
+    "httpx==0.28.1",
+    "lancedb==0.40.0",
+    "numpy==2.5.4",
+    "pdfplumber==0.11.10",
+    "pydantic==2.14.1",
+    "pydantic-settings==2.16.0",
+    "pypdf==6.20.1",
+    "pypdfium2==5.14.0",
+    "segno==1.6.6",
+    "uvicorn[standard]==0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pillow==12.3.0",
+    "playwright==1.64.0",
+    "pytest==9.1.1",
+    "pytest-asyncio==1.4.0",
+    "pyyaml==6.0.3",
+    "reportlab==5.0.1",
+    "ruff==0.17.1",
+]
+
+[tool.uv]
+# An application, not a distributable package.
+package = false
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+# Vendored GET scripts are updated by re-copying, never edited locally (vendor/.../PROVENANCE.md).
+extend-exclude = ["vendor"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "S", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101"]
+# These two files exist to fold typographic look-alikes (curly quotes, dashes, NBSP), so they must contain them.
+"app/textnorm.py" = ["RUF001", "RUF002", "RUF003"]
+"tests/unit/test_textnorm.py" = ["S101", "RUF001", "RUF002", "RUF003"]
+# V4 number parsing must contain Arabic-Indic digits and Arabic separators.
+"app/pipeline/numbers.py" = ["RUF001", "RUF002", "RUF003"]
+"tests/unit/test_numbers.py" = ["S101", "RUF001", "RUF002", "RUF003"]
+# The injection guard matches Arabic rule-change phrasings and typographic dashes.
+"app/pipeline/injection.py" = ["RUF001", "RUF002", "RUF003"]
+"tests/unit/test_injection.py" = ["S101", "RUF001", "RUF002", "RUF003"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"
+xfail_strict = true

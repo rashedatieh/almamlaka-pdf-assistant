@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"Success will be measured through monthly active users (MAU), average session duration, app store ratings, and content engagement rates.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s6\",\"quote\":\"Success will be measured through monthly active users (MAU), average session duration, app store ratings, and content engagement rates.\"}]},{\"text\":\"The steering committee will conduct a quarterly review to track progress against these metrics.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s6\",\"quote\":\"A quarterly review will be conducted by the steering committee to track progress against these metrics.\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2646,
+  "inference_geo": "global",
+  "input_tokens": 1156,
+  "output_tokens": 265,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

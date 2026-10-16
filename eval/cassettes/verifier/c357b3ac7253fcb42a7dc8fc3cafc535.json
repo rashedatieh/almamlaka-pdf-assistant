@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states DEI is a new initiative from Almamlaka TV to modernize the channel's digital presence across streaming, mobile, and social platforms.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote matches: sponsored by the Digital Strategy Department, overseen by a steering committee of Engineering, Content, Marketing, and Legal & Compliance.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"Both the four success metrics and the quarterly steering committee review are stated in the cited passage.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states the figures reflect the original budget and that the December 2026 Finance Committee revision adjusted the total to $2,600,000 for smart TV integration costs.\"},{\"claim_index\":4,\"verdict\":\"SUPPORTED\",\"reason\":\"Both the March 1, 2027 delay risk to the public launch and the smart TV integration testing as the highest-risk item are stated verbatim.\"},{\"claim_index\":5,\"verdict\":\"SUPPORTED\",\"reason\":\"Bi-weekly steering meetings, Finance Committee approval for budget changes above $50,000, and the launch date moved to April 1, 2027 are all stated in the cited passages.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1022,
+  "inference_geo": "global",
+  "input_tokens": 2040,
+  "output_tokens": 470,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

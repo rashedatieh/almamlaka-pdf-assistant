@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Key Details section of the Project Overview states Sara Al-Rashid as Project Lead, a $2,400,000 approved budget, and a 14-month duration.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states the sponsor (Digital Strategy Department) and the steering committee made up of Engineering, Content, Marketing, and Legal & Compliance, in the Project Overview Document.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"The Project Overview's Key Details lists Planned Launch Date: March 15, 2027.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document states the launch was moved to April 1, 2027 to allow additional time for smart TV integration testing.\"},{\"claim_index\":5,\"verdict\":\"PARTIAL\",\"reason\":\"The quoted passage supports the limited buffer, the March 1, 2027 delay risk, and smart TV testing as highest-risk. But the Risk Notes section is attributed to the Budget & Timeline Breakdown document as given, and the \\\"smart TV highest-risk\\\" detail is credited there to the Engineering team's flag; the claim states it flatly. Largely supported, with a minor attribution nuance.\"},{\"claim_index\":6,\"verdict\":\"SUPPORTED\",\"reason\":\"The passage states the committee meets bi-weekly and budget changes above $50,000 need Finance Committee approval before implementation.\"},{\"claim_index\":7,\"verdict\":\"SUPPORTED\",\"reason\":\"This is a neutral label with no factual assertion.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 2093,
+  "output_tokens": 579,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

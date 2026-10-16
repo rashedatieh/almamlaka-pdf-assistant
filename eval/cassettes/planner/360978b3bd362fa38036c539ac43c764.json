@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"How many languages will the app support, and what are they?\",\"standalone_question_ar\":\"كم لغة سيدعمها التطبيق، وما هي؟\",\"searches\":[{\"query\":\"Platform Scope languages supported\",\"lang\":\"en\"},{\"query\":\"number of languages supported by the platform Arabic English\",\"lang\":\"en\"},{\"query\":\"multilingual app language support DEI platform\",\"lang\":\"en\"},{\"query\":\"اللغات التي تدعمها المنصة\",\"lang\":\"ar\"}],\"subquestions\":[\"How many languages will the app support?\",\"Which languages will the app support?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 61,
+  "output_tokens": 252,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

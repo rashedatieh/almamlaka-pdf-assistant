@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Who are the members of the steering committee?\",\"standalone_question_ar\":\"من هم أعضاء اللجنة التوجيهية؟\",\"searches\":[{\"query\":\"steering committee members\",\"lang\":\"en\"},{\"query\":\"Governance Structure steering committee meetings\",\"lang\":\"en\"},{\"query\":\"Project Team names roles departments\",\"lang\":\"en\"},{\"query\":\"أعضاء اللجنة التوجيهية\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 49,
+  "output_tokens": 219,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

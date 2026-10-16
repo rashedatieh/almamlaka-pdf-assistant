@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Project Overview Document's Key Details section states 'Project Lead: Sara Al-Rashid', matching the claim's name, role and attributed document.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document's Project Team table lists 'Sara Al-Rashid | Project Lead | Digital Strategy', confirming the role and department.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 596,
+  "output_tokens": 167,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

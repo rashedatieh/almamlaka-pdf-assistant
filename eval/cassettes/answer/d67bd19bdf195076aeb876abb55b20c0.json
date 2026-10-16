@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Team & Governance Document states the public launch date was moved to April 1, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"the public launch date was moved to April 1, 2027\"}]},{\"text\":\"The Budget & Timeline Breakdown lists the public launch as March 15, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"Public launch | March 15, 2027\"}]},{\"text\":\"The Project Overview Document gives the planned launch date as March 15, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Planned Launch Date: March 15, 2027\"}]},{\"text\":\"The documents don't state whether the public launch has actually taken place.\",\"kind\":\"absence\",\"evidence\":[]}],\"conflicts\":[{\"topic\":\"Public launch date\",\"claim_indexes\":[0,1,2]}],\"missing\":[\"The documents don't state whether the public launch has already happened.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2564,
+  "inference_geo": "global",
+  "input_tokens": 804,
+  "output_tokens": 405,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

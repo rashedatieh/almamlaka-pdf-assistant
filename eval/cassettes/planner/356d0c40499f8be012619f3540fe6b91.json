@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":true,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"What is the total budget for the project?\",\"standalone_question_ar\":\"ما هي الميزانية الإجمالية للمشروع؟\",\"searches\":[{\"query\":\"Total Approved Budget Digital Expansion Initiative\",\"lang\":\"en\"},{\"query\":\"Quarterly Budget Allocation development marketing operations total\",\"lang\":\"en\"},{\"query\":\"budget revised Finance Committee approval budget revision\",\"lang\":\"en\"},{\"query\":\"الميزانية الإجمالية للمشروع\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 61,
+  "output_tokens": 245,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Which 12 languages will the mobile app support?\",\"standalone_question_ar\":\"ما هي اللغات الاثنتا عشرة التي سيدعمها تطبيق الهاتف المحمول؟\",\"searches\":[{\"query\":\"Platform Scope languages supported\",\"lang\":\"en\"},{\"query\":\"mobile app supported languages\",\"lang\":\"en\"},{\"query\":\"number of languages platform mobile app\",\"lang\":\"en\"},{\"query\":\"نطاق المنصة اللغات المدعومة تطبيق الهاتف\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 53,
+  "output_tokens": 255,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"يشمل المشروع ثلاث منصات رئيسية: تطبيق Almamlaka TV للهواتف المحمولة (iOS وAndroid)، وبوابة البث عبر الويب، والتكامل مع منصات التلفزيون الذكي التابعة لجهات خارجية.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s4\",\"quote\":\"The initiative covers three main platforms: the Almamlaka TV mobile application (iOS and Android), the web streaming portal, and integration with third-party smart TV platforms.\"}]},{\"text\":\"ستحصل كل منصة على واجهة مستخدم مُعاد تصميمها بما يتوافق مع إرشادات العلامة التجارية المحدّثة.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s4\",\"quote\":\"Each platform will receive a redesigned user interface aligned with the updated Almamlaka TV brand guidelines.\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2646,
+  "inference_geo": "global",
+  "input_tokens": 1230,
+  "output_tokens": 396,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

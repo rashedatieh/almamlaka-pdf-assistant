@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"none\",\"claims\":[{\"text\":\"The documents do not state that the public launch has taken place.\",\"kind\":\"absence\",\"evidence\":[]},{\"text\":\"The Team & Governance Document states the public launch date was moved to April 1, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"Following the steering committee meeting on January 20, 2027, the public launch date was moved to April 1, 2027 to allow additional time for smart TV integration testing, which was identified as a high-risk item in the project timeline.\"}]},{\"text\":\"The Budget & Timeline Breakdown lists the public launch for March 15, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"Public launch | March 15, 2027\"}]},{\"text\":\"The Project Overview lists a planned launch date of March 15, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Planned Launch Date: March 15, 2027\"}]}],\"conflicts\":[{\"topic\":\"Public launch date\",\"claim_indexes\":[1,2,3]}],\"missing\":[\"The documents don't state whether the public launch has taken place.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1296,
+  "output_tokens": 453,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

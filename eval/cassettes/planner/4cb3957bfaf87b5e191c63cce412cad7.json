@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Give me an overview of the Almamlaka TV Digital Expansion Initiative's key details.\",\"standalone_question_ar\":\"أعطني نظرة عامة على التفاصيل الرئيسية لمبادرة التوسع الرقمي لقناة المملكة (Almamlaka TV Digital Expansion Initiative).\",\"searches\":[{\"query\":\"Key Details project lead budget planned launch date duration\",\"lang\":\"en\"},{\"query\":\"Introduction Almamlaka TV Digital Expansion Initiative overview\",\"lang\":\"en\"},{\"query\":\"Project Goals Platform Scope Stakeholders Success Metrics\",\"lang\":\"en\"},{\"query\":\"budget revised launch date moved\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 53,
+  "output_tokens": 314,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

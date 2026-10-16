@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document passage states the steering committee meets bi-weekly, matching the claim and its attribution.\"},{\"claim_index\":1,\"verdict\":\"PARTIAL\",\"reason\":\"The quarterly review by the steering committee is stated in the Project Overview Document, but the evidence cannot show that the document gives no meeting frequency; that negative part is not established by the cited quote.\"},{\"claim_index\":2,\"verdict\":\"UNSUPPORTED\",\"reason\":\"The claim goes beyond saying the documents don't state something: it concludes that no direct disagreement on meeting frequency appears, which asserts a fact about the project and is not an absence statement.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 540,
+  "output_tokens": 252,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

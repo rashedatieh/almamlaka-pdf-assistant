@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Project Overview Document's Key Details section lists 'Total Approved Budget: $2,400,000', matching the claim.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The table's Total row sums to $2,400,000 and the note says the figures reflect the originally approved budget.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"The Budget Notes state that after a December 2026 Finance Committee revision the total project budget was adjusted to $2,600,000.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"This is a neutral label that asserts no fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 1143,
+  "output_tokens": 253,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

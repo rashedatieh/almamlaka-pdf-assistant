@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states the DEI aims to modernize the channel's digital presence across streaming, mobile, and social platforms.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states the primary goal is a 40% increase in digital viewership within the first year of launch.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote matches the secondary goals listed exactly.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote names the same three platforms: mobile app (iOS and Android), web streaming portal, third-party smart TV integration.\"},{\"claim_index\":4,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states the mobile application will support content and subtitles in 12 languages.\"},{\"claim_index\":5,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states sponsorship by the Digital Strategy Department and a steering committee with the four named groups.\"},{\"claim_index\":6,\"verdict\":\"SUPPORTED\",\"reason\":\"The table total is $2,400,000, and the passage says the figures reflect the originally approved budget.\"},{\"claim_index\":7,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states that after the December 2026 Finance Committee revision the total budget was adjusted to $2,600,000.\"},{\"claim_index\":8,\"verdict\":\"SUPPORTED\",\"reason\":\"A neutral label that asserts no fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 2522,
+  "output_tokens": 523,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

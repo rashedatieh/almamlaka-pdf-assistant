@@ -1,0 +1,169 @@
+import type { Lang, Stage, Status } from "@/lib/api";
+
+/** UI chrome strings (L-06: fully translated). Answer text comes from the server in the reply language. */
+const STRINGS = {
+  en: {
+    appName: "Almamlaka TV Document Assistant",
+    heroTitle: "Ask the project documents",
+    tagline: "Answers only from the three Digital Expansion Initiative documents — every claim cited.",
+    prototype: "Prototype by Rashed Atieh for evaluation — not an official Almamlaka TV product",
+    footer: "Answers come only from three PDFs and may be incomplete. Always check the cited source.",
+    newChat: "New conversation",
+    report: "Executive report",
+    language: "العربية",
+    placeholder: "Ask about the budget, timeline, team or policies…",
+    send: "Send question",
+    stop: "Stop",
+    yourQuestion: "Your question",
+    tooLong: (n: number) => `${n} / 1000 characters`,
+    howAnswered: "How I answered",
+    hideTrace: "Hide",
+    sources: "Sources",
+    viewSource: "View in document",
+    spotlight: {
+      title: "Evidence in the document",
+      description: "The original PDF page, with the quoted text highlighted.",
+      open: (n: number) => `Show source ${n} on the PDF page`,
+      close: "Close",
+      loading: "Loading the page…",
+      error: "The page image could not be loaded.",
+      retry: "Try again",
+      zoomIn: "Zoom in",
+      zoomOut: "Fit page",
+      notFound: "The quoted text could not be located on the page.",
+      document: "Document",
+      page: "Page",
+      section: "Section",
+      quote: "Quote",
+      pageAlt: (doc: string, p: number) => `${doc}, PDF page ${p}`,
+    },
+    pdfPage: (p: number) => `PDF p. ${p}`,
+    printedPage: (p: string) => `printed p. ${p}`,
+    conflictTitle: "The documents disagree",
+    conflictNote: "Both positions are shown; neither is chosen.",
+    missingTitle: "Not stated in the documents",
+    retry: "Try again",
+    demoBanner: "Demo data — the backend is not running, so these answers are canned examples.",
+    examplesTitle: "Try asking",
+    docsTitle: "Answering from",
+    stage: { planning: "Understanding the question", retrieving: "Searching the documents", answering: "Writing the answer", verifying: "Checking every claim" } satisfies Record<Stage, string>,
+    traceCards: {
+      understand: "Understood the question",
+      search: (n: number) => `Searched ${n} document${n === 1 ? "" : "s"}`,
+      verify: "Verified against the source",
+      queries: (n: number) => `${n} search${n === 1 ? "" : "es"}`,
+      passages: (n: number) => `${n} passage${n === 1 ? "" : "s"} found`,
+      verified: (ok: number, removed: number) => `${ok} claim${ok === 1 ? "" : "s"} verified${removed ? ` · ${removed} removed` : ""}`,
+      fallback: "Keyword search only (semantic search unavailable)",
+    },
+    status: {
+      answered: "Answered",
+      partial: "Partial answer",
+      not_in_documents: "Not in documents",
+      clarify: "Needs clarification",
+      out_of_scope: "Out of scope",
+      greeting_or_help: "",
+      error: "Something went wrong",
+    } satisfies Record<Status, string>,
+    flag: { conflict: "Sources disagree", premise_contradicted: "Premise not supported", derived: "Calculated from the documents" },
+    rateLimited: "Too many questions in a minute. Please wait a moment and try again.",
+    historyReset: "The conversation history could not be verified, so the conversation was reset. Please ask your question again.",
+  },
+  ar: {
+    appName: "مساعد وثائق قناة المملكة",
+    heroTitle: "اسأل وثائق المشروع",
+    tagline: "إجابات من وثائق مبادرة التوسع الرقمي الثلاث فقط — مع مصدر لكل معلومة.",
+    prototype: "نموذج أولي من إعداد راشد عطية لأغراض التقييم — ليس منتجاً رسمياً لقناة المملكة",
+    footer: "الإجابات مستندة إلى ثلاث وثائق PDF فقط وقد تكون غير مكتملة. راجع المصدر المذكور دائماً.",
+    newChat: "محادثة جديدة",
+    report: "التقرير التنفيذي",
+    language: "English",
+    placeholder: "اسأل عن الميزانية أو الجدول الزمني أو الفريق أو السياسات…",
+    send: "إرسال السؤال",
+    stop: "إيقاف",
+    yourQuestion: "سؤالك",
+    tooLong: (n: number) => `${n} / 1000 حرف`,
+    howAnswered: "كيف أجبت",
+    hideTrace: "إخفاء",
+    sources: "المصادر",
+    viewSource: "عرض في الوثيقة",
+    spotlight: {
+      title: "الدليل في الوثيقة",
+      description: "صفحة PDF الأصلية مع تظليل النص المقتبس.",
+      open: (n: number) => `عرض المصدر ${n} على صفحة PDF`,
+      close: "إغلاق",
+      loading: "جارٍ تحميل الصفحة…",
+      error: "تعذّر تحميل صورة الصفحة.",
+      retry: "حاول مجدداً",
+      zoomIn: "تكبير",
+      zoomOut: "ملاءمة الصفحة",
+      notFound: "تعذّر تحديد موضع النص المقتبس على الصفحة.",
+      document: "الوثيقة",
+      page: "الصفحة",
+      section: "القسم",
+      quote: "الاقتباس",
+      pageAlt: (doc: string, p: number) => `${doc}، صفحة PDF رقم ${p}`,
+    },
+    pdfPage: (p: number) => `ص ${p} في PDF`,
+    printedPage: (p: string) => `الصفحة المطبوعة ${p}`,
+    conflictTitle: "الوثائق غير متفقة",
+    conflictNote: "نعرض الموقفين دون ترجيح أحدهما.",
+    missingTitle: "غير مذكور في الوثائق",
+    retry: "حاول مجدداً",
+    demoBanner: "بيانات تجريبية — الخادم غير متصل، لذا هذه أمثلة جاهزة.",
+    examplesTitle: "جرّب أن تسأل",
+    docsTitle: "الإجابة من",
+    stage: { planning: "فهم السؤال", retrieving: "البحث في الوثائق", answering: "كتابة الإجابة", verifying: "التحقق من كل معلومة" } satisfies Record<Stage, string>,
+    traceCards: {
+      understand: "فهم السؤال",
+      search: (n: number) => `البحث في ${n} ${n === 1 ? "وثيقة" : "وثائق"}`,
+      verify: "التحقق من المصدر",
+      queries: (n: number) => `${n} عملية بحث`,
+      passages: (n: number) => `${n} مقطع`,
+      verified: (ok: number, removed: number) => `${ok} معلومة موثّقة${removed ? ` · ${removed} محذوفة` : ""}`,
+      fallback: "بحث بالكلمات فقط (البحث الدلالي غير متاح)",
+    },
+    status: {
+      answered: "تمت الإجابة",
+      partial: "إجابة جزئية",
+      not_in_documents: "غير موجود في الوثائق",
+      clarify: "يحتاج توضيحاً",
+      out_of_scope: "خارج النطاق",
+      greeting_or_help: "",
+      error: "حدث خطأ",
+    } satisfies Record<Status, string>,
+    flag: { conflict: "المصادر غير متفقة", premise_contradicted: "الافتراض غير مدعوم", derived: "محسوب من الوثائق" },
+    rateLimited: "أسئلة كثيرة خلال دقيقة واحدة. يُرجى الانتظار قليلاً ثم المحاولة مجدداً.",
+    historyReset: "تعذّر التحقق من سجل المحادثة، لذا أُعيد ضبط المحادثة. يُرجى طرح سؤالك مرة أخرى.",
+  },
+} as const;
+
+export type Strings = (typeof STRINGS)[Lang];
+export const t = (lang: Lang): Strings => STRINGS[lang];
+export const dirOf = (lang: Lang) => (lang === "ar" ? "rtl" : "ltr");
+
+/** Reply language guess for the composer (§4.1 step 1: ≥30% Arabic letters → ar). The server decides. */
+export function detectLang(text: string): Lang {
+  const letters = [...text].filter((ch) => /\p{L}/u.test(ch));
+  if (!letters.length) return "ar";
+  const arabic = letters.filter((ch) => /[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]/.test(ch));
+  return arabic.length / letters.length >= 0.3 ? "ar" : "en";
+}
+
+export const EXAMPLES: Record<Lang, string[]> = {
+  ar: ["ما إجمالي ميزانية المشروع؟", "متى موعد الإطلاق العام؟", "من مسؤول التصميم في المشروع؟"],
+  en: ["What is the total project budget?", "When is the public launch?", "Who must approve budget changes above $50,000?"],
+};
+
+export const DOCUMENTS: Record<Lang, { id: string; name: string }[]> = {
+  en: [
+    { id: "OVR", name: "Project Overview Document" },
+    { id: "BUD", name: "Budget & Timeline Breakdown" },
+    { id: "GOV", name: "Team & Governance Document" },
+  ],
+  ar: [
+    { id: "OVR", name: "وثيقة نظرة عامة على المشروع" },
+    { id: "BUD", name: "الميزانية والجدول الزمني" },
+    { id: "GOV", name: "الفريق والحوكمة" },
+  ],
+};

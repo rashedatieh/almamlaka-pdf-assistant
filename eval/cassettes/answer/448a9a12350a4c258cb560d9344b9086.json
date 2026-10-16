@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Project Overview Document lists a total approved budget of $2,400,000.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Total Approved Budget: $2,400,000\"}]},{\"text\":\"The Budget & Timeline Breakdown states the total project budget was adjusted to $2,600,000 following a revision by the Finance Committee in December 2026.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000\"}]},{\"text\":\"The adjustment is an increase of $200,000, from $2,400,000 to $2,600,000.\",\"kind\":\"derived\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Total Approved Budget: $2,400,000\"},{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"the total project budget was adjusted to $2,600,000\"}]},{\"text\":\"The governance document says budget changes above $50,000 must be approved by the Finance Committee before implementation.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s2\",\"quote\":\"Decisions requiring budget changes above $50,000 must be approved by the Finance Committee before implementation.\"}]},{\"text\":\"The Finance Committee is named as having revised the budget, but the documents do not explicitly state that it approved the change before implementation.\",\"kind\":\"absence\",\"evidence\":[]}],\"conflicts\":[],\"missing\":[\"The documents don't explicitly state that the Finance Committee approved the budget change before implementation.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2358,
+  "inference_geo": "global",
+  "input_tokens": 1274,
+  "output_tokens": 600,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Why was the Digital Expansion Initiative cancelled?\",\"standalone_question_ar\":\"لماذا تم إلغاء مبادرة التوسع الرقمي؟\",\"searches\":[{\"query\":\"Digital Expansion Initiative cancelled\",\"lang\":\"en\"},{\"query\":\"project cancellation reason risk notes\",\"lang\":\"en\"},{\"query\":\"project status steering committee decision launch date revised\",\"lang\":\"en\"},{\"query\":\"Digital Expansion Initiative project overview goals\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 58,
+  "output_tokens": 244,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

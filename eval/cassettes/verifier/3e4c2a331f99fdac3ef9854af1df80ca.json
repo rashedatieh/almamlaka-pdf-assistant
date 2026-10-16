@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote from the Team & Governance Document states the steering committee meets bi-weekly.\"},{\"claim_index\":1,\"verdict\":\"PARTIAL\",\"reason\":\"The quarterly steering committee review of success metrics is supported, but the evidence cannot show that the Overview Document gives no general meeting frequency; that is an unverified negative about the whole document.\"},{\"claim_index\":2,\"verdict\":\"UNSUPPORTED\",\"reason\":\"The absence claim also asserts a fact (the quarterly review covers success metrics only) and a claim about all documents, which goes beyond simply saying the documents don't state something.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 531,
+  "output_tokens": 237,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

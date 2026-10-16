@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"none\",\"claims\":[{\"text\":\"سيدعم تطبيق الجوال المحتوى والترجمات بـ 12 لغة.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s4\",\"quote\":\"the mobile application will support content and subtitles in 12 languages, including Arabic, English, French, and Spanish\"}]},{\"text\":\"من بين هذه اللغات: العربية والإنجليزية والفرنسية والإسبانية.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s4\",\"quote\":\"including Arabic, English, French, and Spanish\"}]},{\"text\":\"لا تذكر المستندات اللغات الثماني الأخرى.\",\"kind\":\"absence\",\"evidence\":[]}],\"conflicts\":[],\"missing\":[\"لا تذكر المستندات أسماء اللغات الثماني المتبقية من أصل 12 لغة.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1607,
+  "output_tokens": 343,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

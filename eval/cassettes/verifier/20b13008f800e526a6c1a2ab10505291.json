@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote and passage from the Budget & Timeline Breakdown state the Finance Committee's December 2026 revision to $2,600,000 for additional smart TV integration costs.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The approved allocation table shows a Development total of $1,700,000, and the passage says the figures reflect the originally approved budget.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"The claim only says the documents don't state the post-revision development-only budget, only the total, and asserts no other fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 852,
+  "output_tokens": 226,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

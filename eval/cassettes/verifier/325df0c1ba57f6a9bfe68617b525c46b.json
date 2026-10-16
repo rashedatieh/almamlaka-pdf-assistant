@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"PARTIAL\",\"reason\":\"The quote states 'Project Lead: Sara Al-Rashid', but the passage never names the Digital Expansion Initiative or identifies itself as the Project Overview Document, so the project name and attributed document are not stated in the evidence.\"},{\"claim_index\":1,\"verdict\":\"PARTIAL\",\"reason\":\"The table row lists Sara Al-Rashid as Project Lead in Digital Strategy, matching the role and department. However, the passage does not identify itself as the Team & Governance Document, and 'also' relies on the other claim's document.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 1022
+  },
+  "cache_creation_input_tokens": 1022,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 433,
+  "output_tokens": 214,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

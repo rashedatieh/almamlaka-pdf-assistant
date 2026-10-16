@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"بلغت ميزانية التسويق المخصصة للربع الأول من عام 2027 مبلغ 120,000 دولار.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Q1 2027 | $450,000 | $120,000 | $60,000 | $630,000\"}]},{\"text\":\"تشير الوثيقة إلى أن هذه الأرقام تعكس الميزانية المعتمدة في الأصل، وأن لجنة المالية عدّلت إجمالي ميزانية المشروع في كانون الأول/ديسمبر 2026 إلى 2,600,000 دولار؛ ولا تذكر الوثائق كيف أثّر هذا التعديل على بند التسويق.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Note that the figures above reflect the originally approved budget.\"},{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000 to account for additional smart TV integration costs not included in the original scope.\"}]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2358,
+  "inference_geo": "global",
+  "input_tokens": 1273,
+  "output_tokens": 457,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

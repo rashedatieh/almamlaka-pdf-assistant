@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Budget & Timeline Breakdown schedules QA & testing from Mar 1 to Mar 20, 2027.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"QA & testing | Mar 1 - Mar 20, 2027\"}]},{\"text\":\"The Budget & Timeline Breakdown lists the public launch as March 15, 2027, which falls before QA's Mar 20, 2027 end date, so QA would not finish before launch under that timeline.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"QA & testing | Mar 1 - Mar 20, 2027\"},{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"Public launch | March 15, 2027\"}]},{\"text\":\"The Team & Governance Document states the public launch date was moved to April 1, 2027, which is after QA's Mar 20, 2027 end date, so QA would finish before launch under that date.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"the public launch date was moved to April 1, 2027\"},{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"QA & testing | Mar 1 - Mar 20, 2027\"}]}],\"conflicts\":[{\"topic\":\"Public launch date\",\"claim_indexes\":[1,2]}],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1348,
+  "output_tokens": 527,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

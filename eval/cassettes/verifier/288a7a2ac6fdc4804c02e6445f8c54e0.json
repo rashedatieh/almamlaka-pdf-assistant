@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The table in the cited passage lists Development of $450,000, $500,000, $400,000 and $350,000 for Q1-Q4 2027 respectively.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Total row shows $1,700,000 in the Development column for the same table.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"The Budget Notes section states the figures reflect the originally approved budget and that the Finance Committee's December 2026 revision adjusted the total project budget to $2,600,000.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"Pure absence claim asserting only that the documents don't state the development-specific allocation of the revision; no other facts asserted.\"},{\"claim_index\":4,\"verdict\":\"SUPPORTED\",\"reason\":\"Pure absence claim that no revised development-only budget is stated; asserts nothing else about the project.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 2276,
+  "output_tokens": 349,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

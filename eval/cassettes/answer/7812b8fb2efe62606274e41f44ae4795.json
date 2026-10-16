@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Team & Governance Document states that the steering committee meets bi-weekly.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s2\",\"quote\":\"The steering committee meets bi-weekly to review project status, budget utilization, and risk items.\"}]},{\"text\":\"The Project Overview Document does not state a meeting frequency for the steering committee; it only says a quarterly review of success metrics will be conducted by the committee.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s6\",\"quote\":\"A quarterly review will be conducted by the steering committee to track progress against these metrics.\"}]},{\"text\":\"The documents therefore do not give conflicting meeting frequencies: one states bi-weekly meetings, and the other mentions only a quarterly metrics review, which is not stated as the committee's meeting schedule.\",\"kind\":\"framing\",\"evidence\":[]}],\"conflicts\":[],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2564,
+  "inference_geo": "global",
+  "input_tokens": 1185,
+  "output_tokens": 358,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

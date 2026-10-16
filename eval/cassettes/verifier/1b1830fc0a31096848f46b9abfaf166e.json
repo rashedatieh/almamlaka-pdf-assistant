@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states budget or scope changes are escalated to the Project Lead, who brings the item to the steering committee for review; the Arabic claim matches.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states decisions requiring budget changes above $50,000 must be approved by the Finance Committee before implementation.\"},{\"claim_index\":2,\"verdict\":\"PARTIAL\",\"reason\":\"The evidence says the committee meets bi-weekly. The Arabic claim renders this as every two weeks, but 'bi-weekly' can also mean twice a week, so the evidence does not settle the interval.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 809,
+  "output_tokens": 243,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

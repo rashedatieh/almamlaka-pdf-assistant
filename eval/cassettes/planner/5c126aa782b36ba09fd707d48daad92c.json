@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Which figure is correct for the total project budget, given that the documents may report different figures?\",\"standalone_question_ar\":\"أي رقم هو الصحيح لإجمالي ميزانية المشروع، علماً بأن المستندات قد تذكر أرقاماً مختلفة؟\",\"searches\":[{\"query\":\"total project budget Key Details\",\"lang\":\"en\"},{\"query\":\"Total Approved Budget Quarterly Budget Allocation\",\"lang\":\"en\"},{\"query\":\"budget revised Budget Notes Finance Committee approval\",\"lang\":\"en\"},{\"query\":\"إجمالي ميزانية المشروع المعدلة\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 54,
+  "output_tokens": 290,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

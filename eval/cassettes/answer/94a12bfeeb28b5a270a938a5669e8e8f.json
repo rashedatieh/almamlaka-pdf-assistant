@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"none\",\"claims\":[{\"text\":\"تنص سياسة خصوصية البيانات على أن بيانات المستخدمين التي تُجمع عبر تطبيق الجوال وبوابة البث ستُعالج وفقًا للوائح حماية البيانات المعمول بها.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p2-s4\",\"quote\":\"All user data collected through the mobile application and streaming portal will be handled in accordance with applicable data protection regulations.\"}]},{\"text\":\"لا تسمّي الوثائق أي قانون أو لائحة محددة لحماية البيانات.\",\"kind\":\"absence\",\"evidence\":[]}],\"conflicts\":[],\"missing\":[\"The documents don't name any specific data protection laws or regulations.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2646,
+  "inference_geo": "global",
+  "input_tokens": 1229,
+  "output_tokens": 291,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

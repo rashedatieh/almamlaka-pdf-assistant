@@ -1,0 +1,14 @@
+{
+  "out_of_scope": "I can only answer questions about the three Digital Expansion Initiative documents (Project Overview, Budget & Timeline, Team & Governance). For example: \"What is the total project budget?\"",
+  "greeting": "Hello! I answer questions about the three Digital Expansion Initiative documents: the Project Overview, the Budget & Timeline Breakdown, and the Team & Governance Document. Every answer cites the document, page and section.",
+  "not_in_documents": "The three documents don't provide this information.",
+  "clarify_fallback": "Could you say a little more about what you mean?",
+  "error": "Something went wrong while answering. Please try again.",
+  "budget_exhausted": "Today's usage limit for this prototype has been reached. Please try again tomorrow.",
+  "turn_cap": "This conversation has reached its message limit. Please start a new conversation.",
+  "too_long": "Your message is too long. Please keep it under 1,000 characters.",
+  "conflict_topic": "The documents give different values",
+  "partial_removed": "Part of the answer could not be verified against the documents and was removed.",
+  "partial_unstated": "The documents don't cover every part of the question.",
+  "injection_refused": "I can't change how I work. I only answer from the three Digital Expansion Initiative documents, and every answer cites its sources. Please ask a question about the documents, for example: \"What is the total project budget?\""
+}

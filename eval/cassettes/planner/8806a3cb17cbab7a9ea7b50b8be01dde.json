@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Which document is the most up to date, and which budget figure is the correct one, ignoring the other?\",\"standalone_question_ar\":\"ما هي الوثيقة الأحدث، وما هو رقم الميزانية الصحيح مع تجاهل الآخر؟\",\"searches\":[{\"query\":\"Total Approved Budget\",\"lang\":\"en\"},{\"query\":\"budget revised Finance Committee approval Budget Notes\",\"lang\":\"en\"},{\"query\":\"Key Details budget planned launch date\",\"lang\":\"en\"},{\"query\":\"revised launch date steering committee\",\"lang\":\"en\"}],\"subquestions\":[\"Which document is the most up to date?\",\"Which budget figure is correct, given that documents may disagree?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 63,
+  "output_tokens": 294,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

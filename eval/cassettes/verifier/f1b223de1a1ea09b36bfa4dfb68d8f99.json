@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"PARTIAL\",\"reason\":\"The quote and passage support the Engineering team flagging smart TV integration testing as highest-risk, but the cited evidence never names the document as the 'Budget & Timeline Breakdown'; only the chunk id 'BUD' hints at it.\"},{\"claim_index\":1,\"verdict\":\"PARTIAL\",\"reason\":\"The passage states smart TV integration testing was identified as a high-risk item in the project timeline, but nothing in the evidence identifies the source as the 'Team & Governance Document'; only the chunk id 'GOV' hints at it.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1022,
+  "inference_geo": "global",
+  "input_tokens": 432,
+  "output_tokens": 216,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

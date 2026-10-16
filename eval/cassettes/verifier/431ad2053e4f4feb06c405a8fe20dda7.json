@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states 'Project Lead: Sara Al-Rashid' in what the claim calls the project overview document (chunk OVR); name and role match.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The team table lists 'Sara Al-Rashid | Project Lead | Digital Strategy', matching the name, role and department; the chunk ID GOV is consistent with a team/governance document and the claim's 'confirms' is consistent with the overview quote.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1022,
+  "inference_geo": "global",
+  "input_tokens": 496,
+  "output_tokens": 197,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

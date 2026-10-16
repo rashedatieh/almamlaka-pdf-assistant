@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states that user-generated comments and interactions on the platform are subject to Almamlaka TV's content moderation guidelines, matching the Arabic claim.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states that content violating community standards will be removed and repeat violations may result in account suspension, matching the claim including the 'may' hedge.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1022,
+  "inference_geo": "global",
+  "input_tokens": 439,
+  "output_tokens": 161,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

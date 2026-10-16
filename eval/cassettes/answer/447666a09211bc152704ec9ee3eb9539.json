@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"تذكر وثيقة نظرة عامة على المشروع أن الميزانية الإجمالية المعتمدة هي 2,400,000 دولار.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Total Approved Budget: $2,400,000\"}]},{\"text\":\"يذكر جدول توزيع الميزانية الربعية في وثيقة الميزانية والجدول الزمني أن إجمالي الميزانية هو 2,400,000 دولار.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Total | $1,700,000 | $460,000 | $240,000 | $2,400,000\"}]},{\"text\":\"تذكر ملاحظات الميزانية في وثيقة الميزانية والجدول الزمني أنه بعد مراجعة لجنة المالية في ديسمبر 2026 جرى تعديل إجمالي ميزانية المشروع إلى 2,600,000 دولار.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000\"}]}],\"conflicts\":[{\"topic\":\"إجمالي ميزانية المشروع\",\"claim_indexes\":[0,1,2]}],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1298,
+  "output_tokens": 528,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"none\",\"claims\":[{\"text\":\"تنص ملاحظات الميزانية على أن إجمالي ميزانية المشروع عُدِّل إلى 2,600,000 دولار بعد مراجعة لجنة المالية في كانون الأول/ديسمبر 2026، دون ذكر مبلغ منفصل لبند التطوير بعد التعديل.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000 to account for additional smart TV integration costs not included in the original scope.\"}]},{\"text\":\"تذكر ملاحظات الميزانية أن الأرقام الواردة في الجدول تعكس الميزانية المعتمدة في الأصل، وبحسب الجدول بلغ إجمالي بند التطوير 1,700,000 دولار.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Note that the figures above reflect the originally approved budget.\"},{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Total | $1,700,000 | $460,000 | $240,000 | $2,400,000\"}]},{\"text\":\"تذكر وثيقة نظرة عامة على المشروع أن إجمالي الميزانية المعتمدة هو 2,400,000 دولار.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Total Approved Budget: $2,400,000\"}]},{\"text\":\"تذكر وثيقة تفصيل الميزانية والجدول الزمني أن إجمالي ميزانية المشروع عُدِّل إلى 2,600,000 دولار.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"the total project budget was adjusted to $2,600,000\"}]}],\"conflicts\":[{\"topic\":\"إجمالي ميزانية المشروع\",\"claim_indexes\":[2,3]}],\"missing\":[\"لا تذكر الوثائق مبلغ ميزانية التطوير بعد التعديل.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1205,
+  "output_tokens": 781,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

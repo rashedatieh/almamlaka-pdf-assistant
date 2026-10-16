@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "doc_id": "OVR",
+      "file": "Almamlaka_Project_Overview.pdf",
+      "bytes": 3511,
+      "pages": 2,
+      "sha256": "b4ddfc374031cc91a3d8191411c7a091dab540c001f877ab257345736be16445"
+    },
+    {
+      "doc_id": "BUD",
+      "file": "Almamlaka_Budget_Timeline.pdf",
+      "bytes": 3787,
+      "pages": 2,
+      "sha256": "86c146595fdb230d9f790a5e943590959ff267ca8d9a7305cc97fce63a540df1"
+    },
+    {
+      "doc_id": "GOV",
+      "file": "Almamlaka_Team_Governance.pdf",
+      "bytes": 3682,
+      "pages": 2,
+      "sha256": "d83ca27d9ed510e7ba1a071052151f1870c479385ff2c7aa8f6672b25d9ee04e"
+    }
+  ]
+}

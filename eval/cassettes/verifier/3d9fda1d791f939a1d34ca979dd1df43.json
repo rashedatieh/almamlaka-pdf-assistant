@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Q1 2027 row shows Marketing as $120,000 in the Budget & Timeline Breakdown table.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"The Q2 2027 row shows Marketing as $150,000.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"The Q3 2027 row shows Marketing as $100,000.\"},{\"claim_index\":4,\"verdict\":\"SUPPORTED\",\"reason\":\"The Q4 2027 row shows Marketing as $90,000.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 1559,
+  "output_tokens": 223,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

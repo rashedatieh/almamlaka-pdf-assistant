@@ -1,0 +1,136 @@
+{
+ "schema_version": 1,
+ "corpus": [
+  {
+   "doc_id": "OVR",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "bytes": 3511,
+   "pages": 2,
+   "sha256": "b4ddfc374031cc91a3d8191411c7a091dab540c001f877ab257345736be16445"
+  },
+  {
+   "doc_id": "BUD",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "bytes": 3787,
+   "pages": 2,
+   "sha256": "86c146595fdb230d9f790a5e943590959ff267ca8d9a7305cc97fce63a540df1"
+  },
+  {
+   "doc_id": "GOV",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "bytes": 3682,
+   "pages": 2,
+   "sha256": "d83ca27d9ed510e7ba1a071052151f1870c479385ff2c7aa8f6672b25d9ee04e"
+  }
+ ],
+ "documents": [
+  {
+   "doc_id": "OVR",
+   "file": "Almamlaka_Project_Overview.pdf",
+   "title": "Almamlaka TV Digital Expansion Initiative",
+   "subtitle": "Project Overview Document"
+  },
+  {
+   "doc_id": "BUD",
+   "file": "Almamlaka_Budget_Timeline.pdf",
+   "title": "Almamlaka TV Digital Expansion Initiative",
+   "subtitle": "Budget & Timeline Breakdown"
+  },
+  {
+   "doc_id": "GOV",
+   "file": "Almamlaka_Team_Governance.pdf",
+   "title": "Almamlaka TV Digital Expansion Initiative",
+   "subtitle": "Team & Governance Document"
+  }
+ ],
+ "chunk_count": 16,
+ "chunk_ids": [
+  "OVR-p1-s1",
+  "OVR-p1-s2",
+  "OVR-p1-s3",
+  "OVR-p2-s4",
+  "OVR-p2-s5",
+  "OVR-p2-s6",
+  "BUD-p1-s1",
+  "BUD-p1-s2",
+  "BUD-p2-s3",
+  "BUD-p2-s4",
+  "GOV-p1-s1",
+  "GOV-p1-s2",
+  "GOV-p1-s3",
+  "GOV-p2-s4",
+  "GOV-p2-s5",
+  "GOV-p2-s6"
+ ],
+ "chunks_sha256": "18bcb0f90dc25904b71313848874e6ed32ad198af99e2593745baaebae17e4b5",
+ "bboxes_sha256": "7ab0932d2fd596f9d8f8dac2b8fdc9a8d5c29a23847f7a4f0bc356aa7ad3ab8b",
+ "pages": [
+  {
+   "doc_id": "OVR",
+   "pdf_page": 1,
+   "printed_label": null,
+   "png": "OVR-p1.png",
+   "width_pt": 612.0,
+   "height_pt": 792.0,
+   "dpi": 144,
+   "width_px": 1224,
+   "height_px": 1584
+  },
+  {
+   "doc_id": "OVR",
+   "pdf_page": 2,
+   "printed_label": null,
+   "png": "OVR-p2.png",
+   "width_pt": 612.0,
+   "height_pt": 792.0,
+   "dpi": 144,
+   "width_px": 1224,
+   "height_px": 1584
+  },
+  {
+   "doc_id": "BUD",
+   "pdf_page": 1,
+   "printed_label": null,
+   "png": "BUD-p1.png",
+   "width_pt": 612.0,
+   "height_pt": 792.0,
+   "dpi": 144,
+   "width_px": 1224,
+   "height_px": 1584
+  },
+  {
+   "doc_id": "BUD",
+   "pdf_page": 2,
+   "printed_label": null,
+   "png": "BUD-p2.png",
+   "width_pt": 612.0,
+   "height_pt": 792.0,
+   "dpi": 144,
+   "width_px": 1224,
+   "height_px": 1584
+  },
+  {
+   "doc_id": "GOV",
+   "pdf_page": 1,
+   "printed_label": null,
+   "png": "GOV-p1.png",
+   "width_pt": 612.0,
+   "height_pt": 792.0,
+   "dpi": 144,
+   "width_px": 1224,
+   "height_px": 1584
+  },
+  {
+   "doc_id": "GOV",
+   "pdf_page": 2,
+   "printed_label": null,
+   "png": "GOV-p2.png",
+   "width_pt": 612.0,
+   "height_pt": 792.0,
+   "dpi": 144,
+   "width_px": 1224,
+   "height_px": 1584
+  }
+ ],
+ "ingest_report": []
+}

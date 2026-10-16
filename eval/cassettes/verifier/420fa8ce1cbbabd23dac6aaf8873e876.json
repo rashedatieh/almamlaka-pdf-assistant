@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states Almamlaka TV is launching the DEI to modernize its digital presence across streaming, mobile, and social platforms.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote states the primary goal is a 40% digital viewership increase within the first year of launch.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote lists the three secondary goals exactly as claimed.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote names three platforms: mobile app (iOS/Android), web streaming portal, third-party smart TV integration.\"},{\"claim_index\":4,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote says a steering committee with reps from Engineering, Content, Marketing, and Legal & Compliance oversees the project.\"},{\"claim_index\":5,\"verdict\":\"SUPPORTED\",\"reason\":\"Quote lists MAU, average session duration, app store ratings, and content engagement rates as success measures.\"},{\"claim_index\":6,\"verdict\":\"SUPPORTED\",\"reason\":\"Evidence states Project Lead: Sara Al-Rashid and Project Duration: 14 months.\"},{\"claim_index\":7,\"verdict\":\"SUPPORTED\",\"reason\":\"The Overview document lists Total Approved Budget: $2,400,000.\"},{\"claim_index\":8,\"verdict\":\"SUPPORTED\",\"reason\":\"The Budget document states the budget was adjusted to $2,600,000 after the Finance Committee's December 2026 revision and that other figures reflect the originally approved budget.\"},{\"claim_index\":9,\"verdict\":\"SUPPORTED\",\"reason\":\"The Overview document lists Planned Launch Date: March 15, 2027.\"},{\"claim_index\":10,\"verdict\":\"SUPPORTED\",\"reason\":\"The Governance document states the public launch moved to April 1, 2027 to allow more smart TV integration testing time.\"},{\"claim_index\":11,\"verdict\":\"SUPPORTED\",\"reason\":\"Neutral label asserting no fact.\"},{\"claim_index\":12,\"verdict\":\"SUPPORTED\",\"reason\":\"Neutral label asserting no fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 3484,
+  "output_tokens": 770,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

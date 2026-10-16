@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"The Project Overview states that the primary goal of the DEI is to increase digital viewership by 40% within the first year of launch.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s2\",\"quote\":\"The primary goal of the DEI is to increase digital viewership by 40% within the first year of launch.\"}]},{\"text\":\"The initiative covers the mobile application (iOS and Android), the web streaming portal, and integration with third-party smart TV platforms.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p2-s4\",\"quote\":\"The initiative covers three main platforms: the Almamlaka TV mobile application (iOS and Android), the web streaming portal, and integration with third-party smart TV platforms.\"}]},{\"text\":\"The Project Overview gives the total approved budget as $2,400,000.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Total Approved Budget: $2,400,000\"}]},{\"text\":\"The Budget & Timeline Breakdown states that the total project budget was adjusted to $2,600,000 following a December 2026 Finance Committee revision.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000\"}]},{\"text\":\"The Project Overview gives the planned launch date as March 15, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Planned Launch Date: March 15, 2027\"}]},{\"text\":\"The Team & Governance Document states that the public launch date was moved to April 1, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"the public launch date was moved to April 1, 2027\"}]},{\"text\":\"The Budget & Timeline Breakdown lists the public launch as March 15, 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"Public launch | March 15, 2027\"}]},{\"text\":\"The Budget & Timeline Breakdown allocates the budget by quarter across development, marketing and operations, with quarterly totals of $630,000 in Q1 2027 and $720,000 in Q2 2027.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Q1 2027 | $450,000 | $120,000 | $60,000 | $630,000\"},{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Q2 2027 | $500,000 | $150,000 | $70,000 | $720,000\"}]},{\"text\":\"A steering committee meets bi-weekly to review project status, budget utilization, and risk items.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s2\",\"quote\":\"The steering committee meets bi-weekly to review project status, budget utilization, and risk items.\"}]},{\"text\":\"Budget changes above $50,000 must be approved by the Finance Committee before implementation.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s2\",\"quote\":\"Decisions requiring budget changes above $50,000 must be approved by the Finance Committee before implementation.\"}]},{\"text\":\"The Project Lead is Sara Al-Rashid, and budget or scope changes are escalated to the Project Lead, who brings them to the steering committee.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Project Lead: Sara Al-Rashid\"},{\"chunk_id\":\"GOV-p2-s6\",\"quote\":\"For budget or scope changes, escalate to the Project Lead, who will bring the item to the steering committee for review.\"}]}],\"conflicts\":[{\"topic\":\"Total project budget\",\"claim_indexes\":[2,3]},{\"topic\":\"Public launch date\",\"claim_indexes\":[4,5,6]}],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2719,
+  "inference_geo": "global",
+  "input_tokens": 1597,
+  "output_tokens": 1424,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

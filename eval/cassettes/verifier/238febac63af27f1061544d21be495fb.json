@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"UNSUPPORTED\",\"reason\":\"Framing claim asserts a fact ('No. Only the Budget & Timeline Breakdown calls it the highest-risk item') and has no evidence; it also makes an exclusivity assertion about the documents.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote from the Budget & Timeline Breakdown's Risk Notes states exactly that the Engineering team flagged smart TV integration testing as the highest-risk item on the timeline.\"},{\"claim_index\":2,\"verdict\":\"PARTIAL\",\"reason\":\"The Team & Governance Document says smart TV integration testing was 'a high-risk item', which matches. But the claim that it describes it 'only' as high-risk, 'not as the highest-risk one', is an exclusivity statement about the whole document that the cited passage alone doesn't establish.\"},{\"claim_index\":3,\"verdict\":\"UNSUPPORTED\",\"reason\":\"An absence claim is supported only if it says nothing beyond what the documents don't state; this one makes a claim about a specific document's provided passages, which is not a plain statement that the documents do not state something and no evidence confirms it.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 645,
+  "output_tokens": 415,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

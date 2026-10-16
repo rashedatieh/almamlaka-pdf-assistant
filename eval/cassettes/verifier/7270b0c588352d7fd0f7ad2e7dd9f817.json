@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote from the Project Overview Document states exactly that the primary goal of the DEI is a 40% increase in digital viewership within the first year of launch.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote states verbatim the three secondary goals: content discoverability, mobile app modernization, and a unified CMS across all platforms.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 515,
+  "output_tokens": 157,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"partial\",\"premise\":\"none\",\"claims\":[{\"text\":\"تنص وثيقة الميزانية والجدول الزمني على أنه بعد مراجعة لجنة المالية في كانون الأول/ديسمبر 2026 جرى تعديل إجمالي ميزانية المشروع إلى 2,600,000 دولار.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Following a revision by the Finance Committee in December 2026, the total project budget was adjusted to $2,600,000 to account for additional smart TV integration costs not included in the original scope.\"}]},{\"text\":\"أما جدول التخصيص الربعي فيُظهر ميزانية تطوير إجماليها 1,700,000 دولار ضمن إجمالي قدره 2,400,000 دولار، وتصفها الوثيقة نفسها بأنها الميزانية المعتمدة أصلاً.\",\"kind\":\"fact\",\"evidence\":[{\"chunk_id\":\"BUD-p1-s1\",\"quote\":\"Total | $1,700,000 | $460,000 | $240,000 | $2,400,000\"},{\"chunk_id\":\"BUD-p1-s2\",\"quote\":\"Note that the figures above reflect the originally approved budget.\"}]}],\"conflicts\":[],\"missing\":[\"The documents don't state the revised budget for the development category after the adjustment.\"],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2646,
+  "inference_geo": "global",
+  "input_tokens": 1205,
+  "output_tokens": 489,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

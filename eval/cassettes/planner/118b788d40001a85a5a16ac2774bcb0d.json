@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Summarize the three documents (Project Overview Document, Budget & Timeline Breakdown, and Team & Governance Document) in five bullet points.\",\"standalone_question_ar\":\"لخّص المستندات الثلاثة (وثيقة نظرة عامة على المشروع، وتفاصيل الميزانية والجدول الزمني، ووثيقة الفريق والحوكمة) في خمس نقاط.\",\"searches\":[{\"query\":\"Digital Expansion Initiative introduction project goals key details platform scope\",\"lang\":\"en\"},{\"query\":\"quarterly budget allocation budget notes budget revision project timeline milestones risk notes\",\"lang\":\"en\"},{\"query\":\"project team governance structure revised launch date data privacy policy content moderation escalation contacts\",\"lang\":\"en\"},{\"query\":\"stakeholders success metrics project lead budget planned launch date\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 53,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"PARTIAL\",\"reason\":\"The quote supports that Sara Al-Rashid is Project Lead, but the passage doesn't show it comes from the 'Project Overview Document'; the document attribution is only given by the chunk ID OVR, not stated in the evidence text.\"},{\"claim_index\":1,\"verdict\":\"PARTIAL\",\"reason\":\"The table row confirms Sara Al-Rashid, Project Lead, Digital Strategy, but nothing in the passage states it is from the 'Team & Governance Document' or that this is a 'project team table'; those attributions rest only on the chunk ID.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1022,
+  "inference_geo": "global",
+  "input_tokens": 427,
+  "output_tokens": 223,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

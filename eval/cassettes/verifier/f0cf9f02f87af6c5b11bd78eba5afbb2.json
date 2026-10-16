@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote and passage state the initiative is aimed at modernizing the channel's digital presence across streaming, mobile, and social platforms, in the Project Overview Document.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The platform scope section lists exactly three main platforms: the mobile app, the web streaming portal, and third-party smart TV integration.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"This is a pure absence claim asserting only that the documents don't list social platforms in the scope or name which ones; it adds no other fact.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"This is a pure absence claim stating only that the documents don't specify which social platforms are covered; it asserts no other fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 728,
+  "output_tokens": 297,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

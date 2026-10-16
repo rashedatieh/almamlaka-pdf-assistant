@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document passage states the steering committee meets bi-weekly, matching the claim and its attributed document.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Project Overview Document says the steering committee will conduct a quarterly review to track progress against success metrics; the claim's note that this is a review rather than a meeting schedule is a faithful reading, since no meeting schedule is stated there.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"This is an absence claim that only says the documents do not state conflicting meeting frequencies, and it asserts no other project facts.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 525,
+  "output_tokens": 246,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

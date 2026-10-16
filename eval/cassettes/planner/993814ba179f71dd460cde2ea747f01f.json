@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"The user says the documents state the budget is $10 million and asks for confirmation with a citation to page 5. What is the project budget according to the documents?\",\"standalone_question_ar\":\"يقول المستخدم إن الوثائق تذكر أن الميزانية 10 ملايين دولار ويطلب التأكيد مع الاستشهاد بالصفحة 5. ما هي ميزانية المشروع وفقًا للوثائق؟\",\"searches\":[{\"query\":\"Total Approved Budget\",\"lang\":\"en\"},{\"query\":\"Key Details budget project\",\"lang\":\"en\"},{\"query\":\"Quarterly Budget Allocation total\",\"lang\":\"en\"},{\"query\":\"budget revised Finance Committee approval Budget Notes\",\"lang\":\"en\"}],\"subquestions\":[\"What is the total approved budget stated in the documents?\",\"Has the budget been revised, and do the documents disagree on the figure?\",\"Do the documents state a budget of $10 million?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 63,
+  "output_tokens": 376,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

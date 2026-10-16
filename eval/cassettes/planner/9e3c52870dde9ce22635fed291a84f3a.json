@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Who is the Project Lead, and what is her email address?\",\"standalone_question_ar\":\"من هو قائد المشروع (Project Lead)، وما هو عنوان بريده الإلكتروني؟\",\"searches\":[{\"query\":\"Project Lead name\",\"lang\":\"en\"},{\"query\":\"Project Lead email address contact\",\"lang\":\"en\"},{\"query\":\"Project Team table names roles departments\",\"lang\":\"en\"},{\"query\":\"Escalation Contacts email\",\"lang\":\"en\"}],\"subquestions\":[\"Who is the Project Lead?\",\"What is the Project Lead's email address?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 53,
+  "output_tokens": 255,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

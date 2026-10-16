@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The Budget & Timeline Breakdown's Risk Notes section states the Engineering team flagged smart TV integration testing as the highest-risk item on the timeline.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document says smart TV integration testing was identified as a high-risk item in the project timeline.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"The cited passage mentions smart TV integration only as one of three platforms in scope and says nothing about testing or risk; this matches the claim.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 856,
+  "output_tokens": 227,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quoted sentence from the Data Privacy Policy section states that all user data collected via the mobile app and streaming portal will be handled per applicable data protection regulations; the Arabic claim faithfully restates this and attributes it correctly.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"This is a pure absence claim that only says the documents don't name a specific data protection law or regulation, and asserts no other fact about the project.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 352,
+  "output_tokens": 184,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

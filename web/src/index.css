@@ -1,0 +1,162 @@
+﻿@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+/*
+ * Almamlaka TV's own typeface (owner decision D25, 2026-10-15): the three weights the official site serves
+ * (https://almamlakatv.com/fonts/ALMAMLAKAFONT-*.woff2), self-hosted and unmodified, with the site's own
+ * metric overrides. It covers Arabic, Latin, both digit styles and punctuation (checked in a browser).
+ */
+@font-face {
+  font-family: "ALMAMLAKAFONT";
+  src: url("/fonts/ALMAMLAKAFONT-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 90%;
+  descent-override: 10%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "ALMAMLAKAFONT";
+  src: url("/fonts/ALMAMLAKAFONT-Medium.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 90%;
+  descent-override: 10%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "ALMAMLAKAFONT";
+  src: url("/fonts/ALMAMLAKAFONT-Extrabold.woff2") format("woff2");
+  font-weight: 700 900;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 80%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Almamlaka TV palette (owner decision D22): values from the CSS custom properties of
+ * https://almamlakatv.com/ar, read on 2026-10-15:
+ *   --primary-color #9e0b0f · --primary-dark-color #1B2431 · --secondary-dark-color #273142
+ *   --secondary-color #343434 · --urgent-assestant #5D5D5D · neutrals #f5f5f5 / #e0e0e0
+ * Tints marked "derived" are mixed from these; they are not taken from the site.
+ */
+:root {
+  --brand-red: #9e0b0f;
+  --brand-navy: #1b2431;
+  --brand-navy-2: #273142;
+  --brand-charcoal: #343434;
+  --brand-grey: #5d5d5d;
+  --brand-amber: #ff9600;
+
+  --background: #ffffff;
+  --foreground: var(--brand-navy);
+  --card: #ffffff;
+  --card-foreground: var(--brand-navy);
+  --popover: #ffffff;
+  --popover-foreground: var(--brand-navy);
+  --primary: var(--brand-red);
+  --primary-foreground: #ffffff;
+  --secondary: #f5f5f5;
+  --secondary-foreground: var(--brand-navy);
+  --muted: #f5f5f5;
+  --muted-foreground: var(--brand-grey);
+  --accent: color-mix(in oklab, var(--brand-red) 8%, white); /* derived */
+  --accent-foreground: var(--brand-red);
+  --destructive: #f82a0a;
+  --warning: color-mix(in oklab, var(--brand-amber) 14%, white); /* derived: "sources disagree" */
+  --warning-foreground: #7a4300; /* derived, AA on --warning */
+  --border: #e0e0e0;
+  --input: #e0e0e0;
+  --ring: var(--brand-red);
+  --radius: 0.375rem; /* almamlakatv.com uses small, sharp corners */
+}
+
+.dark {
+  --background: var(--brand-navy);
+  --foreground: #f5f5f5;
+  --card: var(--brand-navy-2);
+  --card-foreground: #f5f5f5;
+  --popover: var(--brand-navy-2);
+  --popover-foreground: #f5f5f5;
+  --primary: var(--brand-red);
+  --primary-foreground: #ffffff;
+  --secondary: #2f3a4c; /* derived */
+  --secondary-foreground: #f5f5f5;
+  --muted: #2f3a4c; /* derived */
+  --muted-foreground: #b6bfcc; /* derived, AA on --brand-navy */
+  --accent: color-mix(in oklab, var(--brand-red) 22%, var(--brand-navy)); /* derived */
+  --accent-foreground: #ffd9da; /* derived */
+  --destructive: #f82a0a;
+  --warning: color-mix(in oklab, var(--brand-amber) 18%, var(--brand-navy)); /* derived */
+  --warning-foreground: #ffd29a; /* derived */
+  --border: rgb(255 255 255 / 12%);
+  --input: rgb(255 255 255 / 16%);
+  --ring: #e0555a; /* derived: brand red lightened for focus rings on navy */
+}
+
+@theme inline {
+  --font-sans: "ALMAMLAKAFONT", system-ui, sans-serif;
+  --font-heading: var(--font-sans);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-brand-red: var(--brand-red);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-amber: var(--brand-amber);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+/* Browser print while the Executive report is open prints the report only, never the app behind it.
+   The typeset A4 version is the "Download PDF" button (tools/report_pdf.py). */
+@media print {
+  body:has(.report-dialog) * {
+    visibility: hidden;
+  }
+  body:has(.report-dialog) .report-dialog,
+  body:has(.report-dialog) .report-dialog * {
+    visibility: visible;
+  }
+  body:has(.report-dialog) .report-dialog {
+    position: absolute;
+    inset: 0;
+  }
+}

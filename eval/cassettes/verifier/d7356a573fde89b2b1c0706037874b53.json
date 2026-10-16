@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The cited timeline lists QA & testing as Mar 1 - Mar 20, 2027 and the public launch as March 15, 2027, so QA ends five days after launch; the derived comparison is correct and the document attribution matches.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"The Budget & Timeline Breakdown's project timeline states Public launch on March 15, 2027.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"This is a neutral label that asserts no fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 840,
+  "output_tokens": 216,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

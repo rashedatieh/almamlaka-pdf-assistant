@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"PARTIAL\",\"reason\":\"The quote supports that the Engineering team flagged smart TV integration testing as the highest-risk item, but the claim begins with an unsupported \\\"No.\\\", an answer to a question not in the evidence.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The Team & Governance Document passage says smart TV integration testing \\\"was identified as a high-risk item\\\"; it does not say highest-risk, so the claim accurately reports the document's wording.\"},{\"claim_index\":2,\"verdict\":\"UNSUPPORTED\",\"reason\":\"This is an absence claim about what the Project Overview Document does not say. The sentence also asserts a fact about that document's content (that it does not describe smart TV testing as a risk item) rather than only saying the documents don't state something.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 569,
+  "output_tokens": 288,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"By how much did the total budget of the Digital Expansion Initiative change, and was the required body (such as the Finance Committee) involved in approving the change?\",\"standalone_question_ar\":\"بكم تغيّرت الميزانية الإجمالية لمبادرة التوسع الرقمي، وهل شاركت الجهة المطلوبة (مثل لجنة المالية) في الموافقة على هذا التغيير؟\",\"searches\":[{\"query\":\"budget revision total approved budget change\",\"lang\":\"en\"},{\"query\":\"Budget Notes revised total budget increase\",\"lang\":\"en\"},{\"query\":\"Finance Committee approval budget revision\",\"lang\":\"en\"},{\"query\":\"مراجعة الميزانية الإجمالية موافقة لجنة المالية\",\"lang\":\"ar\"}],\"subquestions\":[\"By how much did the total budget change?\",\"Was the required approving body (Finance Committee) involved in the budget change?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 56,
+  "output_tokens": 368,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

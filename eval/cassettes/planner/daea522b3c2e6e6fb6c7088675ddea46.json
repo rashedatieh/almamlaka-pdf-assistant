@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"What is the primary goal of the Almamlaka TV Digital Expansion Initiative (DEI)?\",\"standalone_question_ar\":\"ما هو الهدف الرئيسي لمبادرة التوسع الرقمي لتلفزيون المملكة (DEI)؟\",\"searches\":[{\"query\":\"primary goal of the Digital Expansion Initiative\",\"lang\":\"en\"},{\"query\":\"Project Goals Introduction Almamlaka TV Digital Expansion Initiative\",\"lang\":\"en\"},{\"query\":\"DEI objective digital platform launch\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 51,
+  "output_tokens": 266,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

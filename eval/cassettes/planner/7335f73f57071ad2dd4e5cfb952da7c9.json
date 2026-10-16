@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"How will the success of the Almamlaka TV Digital Expansion Initiative project be measured?\",\"standalone_question_ar\":\"كيف سيتم قياس نجاح مشروع مبادرة التوسع الرقمي لقناة المملكة؟\",\"searches\":[{\"query\":\"Success Metrics\",\"lang\":\"en\"},{\"query\":\"how project success is measured targets KPIs\",\"lang\":\"en\"},{\"query\":\"Project Goals measurable targets subscribers viewership\",\"lang\":\"en\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 49,
+  "output_tokens": 236,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

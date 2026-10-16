@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The evidence states the mobile application will support content and subtitles in 12 languages; the Arabic claim faithfully restates this ('الترجمة' = subtitles).\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"The evidence lists Arabic, English, French, and Spanish as included among the 12 languages.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"This is a pure absence claim stating only that the documents don't name the remaining eight languages, and asserts no other fact. The cited passage names only four of the 12.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 699,
+  "output_tokens": 228,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"status\":\"answered\",\"premise\":\"none\",\"claims\":[{\"text\":\"تختلف الوثائق في تحديد موعد الإطلاق العام: تذكر وثيقة نظرة عامة على المشروع (Project Overview) أن موعد الإطلاق المخطط هو 15 آذار/مارس 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"OVR-p1-s3\",\"quote\":\"Planned Launch Date: March 15, 2027\"}]},{\"text\":\"وتذكر وثيقة الميزانية والجدول الزمني (Budget & Timeline Breakdown) أن الإطلاق العام في 15 آذار/مارس 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"BUD-p2-s3\",\"quote\":\"Public launch | March 15, 2027\"}]},{\"text\":\"أما وثيقة الفريق والحوكمة (Team & Governance) فتذكر أن موعد الإطلاق العام نُقل إلى 1 نيسان/أبريل 2027 بعد اجتماع اللجنة التوجيهية في 20 كانون الثاني/يناير 2027.\",\"kind\":\"conflict_position\",\"evidence\":[{\"chunk_id\":\"GOV-p1-s3\",\"quote\":\"Following the steering committee meeting on January 20, 2027, the public launch date was moved to April 1, 2027\"}]}],\"conflicts\":[{\"topic\":\"موعد الإطلاق العام\",\"claim_indexes\":[0,1,2]}],\"missing\":[],\"clarifying_question\":\"\",\"clarify_options\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2646,
+  "inference_geo": "global",
+  "input_tokens": 1143,
+  "output_tokens": 545,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

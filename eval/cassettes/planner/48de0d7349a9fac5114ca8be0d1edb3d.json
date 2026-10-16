@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"How many languages will the platform support, and what are they?\",\"standalone_question_ar\":\"كم لغة ستدعمها المنصة، وما هي هذه اللغات؟\",\"searches\":[{\"query\":\"Platform Scope languages supported\",\"lang\":\"en\"},{\"query\":\"number of languages platform will support Arabic English\",\"lang\":\"en\"},{\"query\":\"Almamlaka TV Digital Expansion Initiative multilingual interface language support\",\"lang\":\"en\"},{\"query\":\"نطاق المنصة اللغات المدعومة\",\"lang\":\"ar\"}],\"subquestions\":[\"How many languages will the platform support?\",\"Which languages will the platform support?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 61,
+  "output_tokens": 276,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

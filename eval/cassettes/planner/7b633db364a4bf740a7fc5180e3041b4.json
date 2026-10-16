@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Who is responsible for design on the project?\",\"standalone_question_ar\":\"من المسؤول عن التصميم في المشروع؟\",\"searches\":[{\"query\":\"UX Design Lead project team\",\"lang\":\"en\"},{\"query\":\"who is responsible for design Project Team roles departments\",\"lang\":\"en\"},{\"query\":\"UX design responsibilities Digital Expansion Initiative team\",\"lang\":\"en\"},{\"query\":\"مسؤول التصميم في المشروع\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 57,
+  "output_tokens": 232,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

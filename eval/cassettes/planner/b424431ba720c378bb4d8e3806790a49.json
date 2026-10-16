@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"What did the development budget become after the budget revision?\",\"standalone_question_ar\":\"كم أصبحت ميزانية التطوير بعد تعديل الميزانية؟\",\"searches\":[{\"query\":\"revised development budget after budget revision\",\"lang\":\"en\"},{\"query\":\"Budget Notes budget revised Finance Committee approval\",\"lang\":\"en\"},{\"query\":\"Quarterly Budget Allocation development Q1 Q2 Q3 Q4 2027\",\"lang\":\"en\"},{\"query\":\"ميزانية التطوير بعد تعديل الميزانية\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2575,
+  "inference_geo": "global",
+  "input_tokens": 68,
+  "output_tokens": 267,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

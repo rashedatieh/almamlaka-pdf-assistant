@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Please summarize the project.\",\"standalone_question_ar\":\"لخّص المشروع من فضلك.\",\"searches\":[{\"query\":\"Almamlaka TV Digital Expansion Initiative introduction project goals\",\"lang\":\"en\"},{\"query\":\"Key Details Project Lead budget planned launch date duration\",\"lang\":\"en\"},{\"query\":\"Platform Scope languages stakeholders success metrics\",\"lang\":\"en\"},{\"query\":\"ملخص مشروع التوسع الرقمي لقناة المملكة أهداف المشروع\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 51,
+  "output_tokens": 258,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"Both the Project Overview Document and the Team & Governance Document name Sara Al-Rashid as Project Lead.\"},{\"claim_index\":1,\"verdict\":\"SUPPORTED\",\"reason\":\"Absence claim that only says the documents give no email address and asserts no other fact.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"Absence claim that only says the documents do not state the email address and asserts no other fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 511,
+  "output_tokens": 182,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

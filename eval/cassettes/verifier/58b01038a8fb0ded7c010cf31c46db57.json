@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The quote and passage from the Budget & Timeline Breakdown, Risk Notes, state that Engineering flagged smart TV integration testing as the highest-risk item on the timeline.\"},{\"claim_index\":1,\"verdict\":\"PARTIAL\",\"reason\":\"The Team & Governance Document says smart TV integration testing was 'identified as a high-risk item', which supports the first half. The 'not as the highest-risk item' part is a contrast the evidence doesn't state; it only shows the phrase 'high-risk' was used.\"},{\"claim_index\":2,\"verdict\":\"SUPPORTED\",\"reason\":\"Absence claim that only says the retrieved Project Overview passages don't describe smart TV testing as a risk item; it asserts no other project fact.\"},{\"claim_index\":3,\"verdict\":\"SUPPORTED\",\"reason\":\"Absence claim that only says the provided documents don't show the Project Overview Document calling smart TV testing a risk; it asserts no other project fact.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 639,
+  "output_tokens": 358,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

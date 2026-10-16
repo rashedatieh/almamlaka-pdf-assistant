@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"How much will the post-launch review cost?\",\"standalone_question_ar\":\"كم ستكلف مراجعة ما بعد الإطلاق؟\",\"searches\":[{\"query\":\"post-launch review cost\",\"lang\":\"en\"},{\"query\":\"post-launch review budget allocation\",\"lang\":\"en\"},{\"query\":\"Quarterly Budget Allocation development marketing operations Q4 2027\",\"lang\":\"en\"},{\"query\":\"تكلفة مراجعة ما بعد الإطلاق\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 50,
+  "output_tokens": 242,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

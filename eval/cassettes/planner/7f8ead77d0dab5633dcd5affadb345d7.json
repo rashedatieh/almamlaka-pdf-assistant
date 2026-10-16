@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"Who must approve budget changes above $50,000?\",\"standalone_question_ar\":\"من يجب أن يوافق على تغييرات الميزانية التي تتجاوز 50,000 دولار؟\",\"searches\":[{\"query\":\"budget changes above $50,000 approval Finance Committee\",\"lang\":\"en\"},{\"query\":\"Governance Structure Finance Committee approvals budget revision\",\"lang\":\"en\"},{\"query\":\"Budget Notes budget revised approval threshold\",\"lang\":\"en\"},{\"query\":\"من يوافق على تغييرات الميزانية التي تزيد عن 50,000 دولار\",\"lang\":\"ar\"}],\"subquestions\":[]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 53,
+  "output_tokens": 281,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

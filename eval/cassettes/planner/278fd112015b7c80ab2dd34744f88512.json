@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"intent\":\"document_question\",\"requested_language\":\"none\",\"arabizi\":false,\"reference_resolved\":true,\"clarifying_question\":\"\",\"clarify_options\":[],\"standalone_question_en\":\"By how much did the total budget change, and was the required body involved?\",\"standalone_question_ar\":\"بكم تغيرت الميزانية الإجمالية، وهل شاركت الجهة المطلوبة في ذلك؟\",\"searches\":[{\"query\":\"budget revision total approved budget change\",\"lang\":\"en\"},{\"query\":\"Budget Notes revised budget Finance Committee approval\",\"lang\":\"en\"},{\"query\":\"Total Approved Budget Key Details original budget\",\"lang\":\"en\"},{\"query\":\"Governance Structure Finance Committee approvals budget changes\",\"lang\":\"en\"}],\"subquestions\":[\"By how much did the total budget change?\",\"Was the required approving body (e.g. the Finance Committee) involved in the budget change?\"]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2694,
+  "inference_geo": "global",
+  "input_tokens": 56,
+  "output_tokens": 306,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}

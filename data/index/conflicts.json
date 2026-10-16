@@ -1,0 +1,21 @@
+{
+ "source": "executive report (en), disagreements section",
+ "groups": [
+  {
+   "summary": "The Project Overview states a total approved budget of $2,400,000. The Budget & Timeline Breakdown's quarterly table totals $2,400,000, which that document desc",
+   "chunks": [
+    "OVR-p1-s3",
+    "BUD-p1-s1",
+    "BUD-p1-s2"
+   ]
+  },
+  {
+   "summary": "The Project Overview states a planned launch date of March 15, 2027. The Budget & Timeline Breakdown lists the public launch for March 15, 2027. The Team & Gove",
+   "chunks": [
+    "OVR-p1-s3",
+    "BUD-p2-s3",
+    "GOV-p1-s3"
+   ]
+  }
+ ]
+}

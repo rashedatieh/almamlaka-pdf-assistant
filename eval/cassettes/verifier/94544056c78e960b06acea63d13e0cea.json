@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "stop_reason": "end_turn",
+ "text": "{\"judgments\":[{\"claim_index\":0,\"verdict\":\"SUPPORTED\",\"reason\":\"The table's Marketing column lists $120,000, $150,000, $100,000 and $90,000 for Q1-Q4 2027, matching the claim exactly.\"},{\"claim_index\":1,\"verdict\":\"PARTIAL\",\"reason\":\"The table's total row confirms the marketing column totals $460,000, but the evidence says nothing about a total 'the question assumes', so that part is unsupported.\"}]}",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1261,
+  "inference_geo": "global",
+  "input_tokens": 1886,
+  "output_tokens": 166,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ }
+}
