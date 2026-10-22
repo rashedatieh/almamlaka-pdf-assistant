@@ -181,3 +181,10 @@ def test_dense_leg_is_off_by_default_and_on_with_the_switch(monkeypatch: pytest.
     assert leg is not None and leg.store is not None
     monkeypatch.setenv("EMBEDDING_MODEL", "no-such-model")
     assert dense_leg(chunks) is None  # missing vectors: BM25 only, never a crash
+
+
+def test_invite_gate_can_be_switched_off(monkeypatch: pytest.MonkeyPatch) -> None:
+    client, _ = make(monkeypatch, secrets=json.dumps({"invite_token": "tok-123"}), INVITE_REQUIRED="false")
+    response = client.post("/api/chat", json={"message": "What is the total project budget?", "history": []})
+    assert response.status_code == 200  # no invite cookie needed
+    assert client.get("/?invite=tok-123", follow_redirects=False).status_code != 401  # old links still open

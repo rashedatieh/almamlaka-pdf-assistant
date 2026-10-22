@@ -13,7 +13,7 @@ admits what it doesn't know, and flags where documents disagree.**
 ![Tests](https://img.shields.io/badge/tests-635%20passing-2ea44f)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-**[Live demo](https://almamlaka-assistant-383606437746.me-central1.run.app)** (invite link on request) ·
+**[Live demo](https://almamlaka-assistant-383606437746.me-central1.run.app)** ·
 **[Interactive pipeline explainer](https://rashedatieh.github.io/almamlaka-pdf-assistant/video-kit/pipeline-graph.html)** ·
 [Approach](#approach) · [Results](#results) · [Security](#security)
 

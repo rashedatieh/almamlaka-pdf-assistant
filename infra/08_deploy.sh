@@ -25,7 +25,7 @@ run gcloud run deploy "${SERVICE}" --project="${GCP_PROJECT}" --region="${GCP_RE
   --impersonate-service-account="${DEPLOYER_SA}" \
   --service-account="${RUNTIME_SA}" \
   --set-secrets="ANTHROPIC_API_KEY=anthropic-api-key:latest,APP_SECRETS=app-secrets:latest" \
-  --set-env-vars="APP_ENV=prod,LLM_MODE=live,INFERENCE_GEO=global,DAILY_BUDGET_USD=${DAILY_BUDGET_USD},RATE_LIMIT_PER_MIN=10,MAX_TURNS_PER_SESSION=30" \
+  --set-env-vars="APP_ENV=prod,LLM_MODE=live,INFERENCE_GEO=global,DAILY_BUDGET_USD=${DAILY_BUDGET_USD},RATE_LIMIT_PER_MIN=10,MAX_TURNS_PER_SESSION=30,INVITE_REQUIRED=${INVITE_REQUIRED:-false}" \
   --min-instances=0 --max-instances=1 --concurrency=40 --cpu=1 --memory=1Gi --timeout=300 \
   --labels="${LABELS}" --no-allow-unauthenticated --quiet
 

@@ -141,7 +141,11 @@ class Service:
         env = os.environ
         app_secrets = _secrets()
         self.app_env = env.get("APP_ENV", "dev")
-        self.invite = app_secrets.get("invite_token", "")
+        # INVITE_REQUIRED=false opens the chat to anyone with the link. Spend stays capped by
+        # DAILY_BUDGET_USD, the per-IP rate limit and the Anthropic workspace limit.
+        # Old ?invite= links still work.
+        required = env.get("INVITE_REQUIRED", "true").lower() != "false"
+        self.invite = app_secrets.get("invite_token", "") if required else ""
         key = app_secrets.get("session_secret", "")
         if not key:
             if self.app_env != "dev":
@@ -229,6 +233,18 @@ def create_app(service: Service | None = None) -> FastAPI:
         for name, value in SECURITY_HEADERS.items():
             response.headers.setdefault(name, value)
         return response
+
+    favicon = DIST / "brand" / "almamlaka-favicon.png"
+
+    @app.get("/favicon.ico", include_in_schema=False)
+    @app.get("/apple-touch-icon.png", include_in_schema=False)
+    @app.get("/apple-touch-icon-precomposed.png", include_in_schema=False)
+    def icon() -> Response:
+        if not favicon.is_file():
+            raise HTTPException(404, "no icon")
+        return FileResponse(
+            favicon, media_type="image/png", headers={"Cache-Control": "public, max-age=86400"}
+        )
 
     @app.get("/health")
     @app.get("/healthz")  # Cloud Run's front end reserves paths ending in "z"; use /health there

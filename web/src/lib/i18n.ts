@@ -67,6 +67,7 @@ const STRINGS = {
     } satisfies Record<Status, string>,
     flag: { conflict: "Sources disagree", premise_contradicted: "Premise not supported", derived: "Calculated from the documents" },
     rateLimited: "Too many questions in a minute. Please wait a moment and try again.",
+    inviteRequired: "This preview is invite-only. Please open the invite link you received, then ask again.",
     historyReset: "The conversation history could not be verified, so the conversation was reset. Please ask your question again.",
   },
   ar: {
@@ -134,6 +135,7 @@ const STRINGS = {
     } satisfies Record<Status, string>,
     flag: { conflict: "المصادر غير متفقة", premise_contradicted: "الافتراض غير مدعوم", derived: "محسوب من الوثائق" },
     rateLimited: "أسئلة كثيرة خلال دقيقة واحدة. يُرجى الانتظار قليلاً ثم المحاولة مجدداً.",
+    inviteRequired: "هذه النسخة التجريبية متاحة بدعوة فقط. يُرجى فتح رابط الدعوة الذي وصلك ثم إعادة السؤال.",
     historyReset: "تعذّر التحقق من سجل المحادثة، لذا أُعيد ضبط المحادثة. يُرجى طرح سؤالك مرة أخرى.",
   },
 } as const;

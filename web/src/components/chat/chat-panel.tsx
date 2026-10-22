@@ -124,6 +124,7 @@ export function ChatPanel({
         setEntries((prev) => prev.filter((e) => e.id === replyId || (e.kind === "user" && e.text === message)).slice(-2));
         update({ error: t(lang).historyReset, stage: null });
       } else if (code === "429") update({ error: t(lang).rateLimited, stage: null });
+      else if (code === "401") update({ error: t(lang).inviteRequired, stage: null });
       else update({ error: t(lang).status.error, stage: null });
     } finally {
       setBusy(false);
