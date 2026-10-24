@@ -15,7 +15,7 @@ dependencies = [
     "pdfplumber==0.11.10",
     "pydantic==2.14.1",
     "pydantic-settings==2.16.0",
-    "pypdf==6.20.1",
+    "pypdf==6.21.2",
     "pypdfium2==5.14.0",
     "segno==1.6.6",
     "uvicorn[standard]==0.54.0",
